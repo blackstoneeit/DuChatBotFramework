@@ -75,7 +75,8 @@ public struct DuChatBotButton : Swift.Decodable {
 public enum DuChatBotConfigurator {
   public enum DuChatBotEnvironment {
     case tqc
-    case preview
+    case previewMajor
+    case previewMinor
     case production
     public static func == (a: DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment, b: DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment) -> Swift.Bool
     public var hashValue: Swift.Int {
