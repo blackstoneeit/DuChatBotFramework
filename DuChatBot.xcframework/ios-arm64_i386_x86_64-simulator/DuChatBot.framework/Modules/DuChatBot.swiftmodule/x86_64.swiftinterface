@@ -40,12 +40,14 @@ public enum DuChatBotContractType : Swift.String, Swift.Codable {
     get
   }
 }
-public struct DuVAS {
+public struct DuVAS : Swift.Codable {
   public var id: Swift.String {
     get
   }
   public let name: Swift.String
   public let expiryDate: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 public struct DuChatBotContract : Swift.Decodable {
   public let title: Swift.String
