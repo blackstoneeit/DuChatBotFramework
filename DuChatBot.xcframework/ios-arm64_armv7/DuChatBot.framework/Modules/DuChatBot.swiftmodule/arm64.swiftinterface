@@ -22,6 +22,12 @@ public enum DuParseResult {
   case handover(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuSuggestedAction])
   case rechargeHistory(rechargeHistory: [DuChatBot.DuRechargeHistory], suggestedActions: [DuChatBot.DuSuggestedAction])
   case orders(orders: [DuChatBot.DuOrder], suggestedActions: [DuChatBot.DuSuggestedAction])
+  case vas(vas: [DuChatBot.DuVAS], suggestedActions: [DuChatBot.DuSuggestedAction])
+  case confirmVASUnsubscription(confirmVASUnsubscription: DuChatBot.DuConfirmVASUnsubscription, suggestedActions: [DuChatBot.DuSuggestedAction])
+}
+public struct DuConfirmVASUnsubscription {
+  public let name: Swift.String
+  public let mobileNumber: Swift.String
 }
 public enum DuChatBotContractType : Swift.String, Swift.Codable {
   case prepaid
@@ -33,6 +39,13 @@ public enum DuChatBotContractType : Swift.String, Swift.Codable {
   public var rawValue: Swift.String {
     get
   }
+}
+public struct DuVAS {
+  public var id: Swift.String {
+    get
+  }
+  public let name: Swift.String
+  public let expiryDate: Swift.String
 }
 public struct DuChatBotContract : Swift.Decodable {
   public let title: Swift.String
@@ -58,20 +71,10 @@ public class DuParsingEngine : BSChatBotClient.ParsingEngine {
   public func parse(json: [Swift.String : Any], forId id: Swift.String)
   @objc deinit
 }
-public enum DuChatBotButtonType : Swift.String, Swift.Decodable {
-  case openURL
-  case submit
-  public typealias RawValue = Swift.String
-  public init?(rawValue: Swift.String)
-  public var rawValue: Swift.String {
-    get
-  }
-}
 public struct DuChatBotButton : Swift.Decodable {
   public let id: Swift.String
   public let title: Swift.String?
   public let data: Swift.String?
-  public let type: DuChatBot.DuChatBotButtonType?
   public init(from decoder: Swift.Decoder) throws
 }
 public enum DuChatBotConfigurator {
@@ -113,8 +116,5 @@ public struct DuPaymentHistory {
 extension DuChatBot.DuChatBotContractType : Swift.Equatable {}
 extension DuChatBot.DuChatBotContractType : Swift.Hashable {}
 extension DuChatBot.DuChatBotContractType : Swift.RawRepresentable {}
-extension DuChatBot.DuChatBotButtonType : Swift.Equatable {}
-extension DuChatBot.DuChatBotButtonType : Swift.Hashable {}
-extension DuChatBot.DuChatBotButtonType : Swift.RawRepresentable {}
 extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Equatable {}
 extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Hashable {}
