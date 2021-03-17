@@ -23,7 +23,7 @@ public enum DuParseResult {
   case rechargeHistory(rechargeHistory: [DuChatBot.DuRechargeHistory], suggestedActions: [DuChatBot.DuSuggestedAction])
   case orders(orders: [DuChatBot.DuOrder], suggestedActions: [DuChatBot.DuSuggestedAction])
   case vas(vas: [DuChatBot.DuVAS], suggestedActions: [DuChatBot.DuSuggestedAction])
-  case confirmVASUnsubscription(confirmVASUnsubscription: DuChatBot.DuConfirmVASUnsubscription, suggestedActions: [DuChatBot.DuSuggestedAction])
+  case confirmVASUnsubscription(confirmVASUnsubscription: DuChatBot.DuConfirmVASUnsubscription, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuSuggestedAction])
 }
 public struct DuConfirmVASUnsubscription {
   public let name: Swift.String
