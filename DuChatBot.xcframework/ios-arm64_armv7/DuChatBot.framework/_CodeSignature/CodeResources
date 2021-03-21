@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/BSChatBotClient.framework/BSChatBotClient</key>
 		<data>
-		PJ6bzrbfFVs1y3vt0FnML/2HsSY=
+		VgqVA8vTjhTS0mH4H6L3AEt2rhI=
 		</data>
 		<key>Frameworks/BSChatBotClient.framework/Info.plist</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm.swiftinterface</key>
 		<data>
-		cLUdWX4o33hxd8UNgMeHwwY4VuM=
+		67eqjS3KnNpIc70l1Bbiw4a8I4I=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm.swiftmodule</key>
 		<data>
-		4asyp3sW1Q6qCQ63HiN1hJ/dXdM=
+		m3gAnnLFhewJb/ZYXWt68O1s1sU=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		zRIoTp4WOP3zGmQj174D/s3H2WQ=
+		XS3C4Jn/bYKul0A6BfJzEZxoL3E=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		HJaFBvoClYBgRkJGoSQyQdMdB98=
+		o5BcsDdxwcc+S96xRt0DOLrK3m0=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		zRIoTp4WOP3zGmQj174D/s3H2WQ=
+		XS3C4Jn/bYKul0A6BfJzEZxoL3E=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		HJaFBvoClYBgRkJGoSQyQdMdB98=
+		o5BcsDdxwcc+S96xRt0DOLrK3m0=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		cLUdWX4o33hxd8UNgMeHwwY4VuM=
+		67eqjS3KnNpIc70l1Bbiw4a8I4I=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		4asyp3sW1Q6qCQ63HiN1hJ/dXdM=
+		m3gAnnLFhewJb/ZYXWt68O1s1sU=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/armv7.swiftinterface</key>
 		<data>
-		cLUdWX4o33hxd8UNgMeHwwY4VuM=
+		67eqjS3KnNpIc70l1Bbiw4a8I4I=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		4asyp3sW1Q6qCQ63HiN1hJ/dXdM=
+		m3gAnnLFhewJb/ZYXWt68O1s1sU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PJ6bzrbfFVs1y3vt0FnML/2HsSY=
+			VgqVA8vTjhTS0mH4H6L3AEt2rhI=
 			</data>
 			<key>hash2</key>
 			<data>
-			PTN3JbCTXRkGV74+xocdYJmNOR98qc2Bf+0jIQZMrRM=
+			CQSwTQRHE9mzfiXvjHR1e9EOx92dvqLjOcYxGarKj1U=
 			</data>
 		</dict>
 		<key>Frameworks/BSChatBotClient.framework/Info.plist</key>
@@ -165,22 +165,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cLUdWX4o33hxd8UNgMeHwwY4VuM=
+			67eqjS3KnNpIc70l1Bbiw4a8I4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZWTNSPvuQ15ghE6/wmOaQc1LQJSRA1MANaBD4IB6AFw=
+			/DE5Iy2k+gltpAqc6qWDCDfFqC0L68FcHVG0Y6OwN2o=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4asyp3sW1Q6qCQ63HiN1hJ/dXdM=
+			m3gAnnLFhewJb/ZYXWt68O1s1sU=
 			</data>
 			<key>hash2</key>
 			<data>
-			6/F7b0VQfYdRRSf/uFEoPHTYBl44JEdpNnPRRuapOvc=
+			oe34P6F67nFME8ngrASUYQX/qXfxLfgnjFD+v0lRldo=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -198,22 +198,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zRIoTp4WOP3zGmQj174D/s3H2WQ=
+			XS3C4Jn/bYKul0A6BfJzEZxoL3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			KI0BeXKKldzCXSOmTKA3LmPpDc3eYhRgju9oBneaXuQ=
+			f9kHL9TtUNKtGj5W/fq/59xhXzHv/KkMZJjf91TxC9A=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HJaFBvoClYBgRkJGoSQyQdMdB98=
+			o5BcsDdxwcc+S96xRt0DOLrK3m0=
 			</data>
 			<key>hash2</key>
 			<data>
-			z8OACwrKsEsM6/D5Q7ORmt1xRgQTJJixW0OT2KIhl6Q=
+			80XWwGKUWZvve339fGZPJxdMwtNz8P6ZVmt73V1HBAE=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/arm64.swiftdoc</key>
@@ -231,22 +231,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zRIoTp4WOP3zGmQj174D/s3H2WQ=
+			XS3C4Jn/bYKul0A6BfJzEZxoL3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			KI0BeXKKldzCXSOmTKA3LmPpDc3eYhRgju9oBneaXuQ=
+			f9kHL9TtUNKtGj5W/fq/59xhXzHv/KkMZJjf91TxC9A=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HJaFBvoClYBgRkJGoSQyQdMdB98=
+			o5BcsDdxwcc+S96xRt0DOLrK3m0=
 			</data>
 			<key>hash2</key>
 			<data>
-			z8OACwrKsEsM6/D5Q7ORmt1xRgQTJJixW0OT2KIhl6Q=
+			80XWwGKUWZvve339fGZPJxdMwtNz8P6ZVmt73V1HBAE=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -264,22 +264,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cLUdWX4o33hxd8UNgMeHwwY4VuM=
+			67eqjS3KnNpIc70l1Bbiw4a8I4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZWTNSPvuQ15ghE6/wmOaQc1LQJSRA1MANaBD4IB6AFw=
+			/DE5Iy2k+gltpAqc6qWDCDfFqC0L68FcHVG0Y6OwN2o=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4asyp3sW1Q6qCQ63HiN1hJ/dXdM=
+			m3gAnnLFhewJb/ZYXWt68O1s1sU=
 			</data>
 			<key>hash2</key>
 			<data>
-			6/F7b0VQfYdRRSf/uFEoPHTYBl44JEdpNnPRRuapOvc=
+			oe34P6F67nFME8ngrASUYQX/qXfxLfgnjFD+v0lRldo=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/armv7.swiftdoc</key>
@@ -297,22 +297,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cLUdWX4o33hxd8UNgMeHwwY4VuM=
+			67eqjS3KnNpIc70l1Bbiw4a8I4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZWTNSPvuQ15ghE6/wmOaQc1LQJSRA1MANaBD4IB6AFw=
+			/DE5Iy2k+gltpAqc6qWDCDfFqC0L68FcHVG0Y6OwN2o=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4asyp3sW1Q6qCQ63HiN1hJ/dXdM=
+			m3gAnnLFhewJb/ZYXWt68O1s1sU=
 			</data>
 			<key>hash2</key>
 			<data>
-			6/F7b0VQfYdRRSf/uFEoPHTYBl44JEdpNnPRRuapOvc=
+			oe34P6F67nFME8ngrASUYQX/qXfxLfgnjFD+v0lRldo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
