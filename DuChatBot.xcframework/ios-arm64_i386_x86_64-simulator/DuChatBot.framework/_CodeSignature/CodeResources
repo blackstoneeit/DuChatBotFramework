@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/BSChatBotClient.framework/BSChatBotClient</key>
 		<data>
-		WG9wMr2QML7WLCi0kGSv4Yc2D6I=
+		16PW8l/j0nExSCv/MfleYIB4sVc=
 		</data>
 		<key>Frameworks/BSChatBotClient.framework/Info.plist</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kpkQjm6q8JkSdzDCYDvV2DlzOj8=
+		QDfxq9iKovnhTdy1s1jKNr1GJ7s=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		kpkQjm6q8JkSdzDCYDvV2DlzOj8=
+		QDfxq9iKovnhTdy1s1jKNr1GJ7s=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eXyY13IBQUxP/a6WGkxiU3E8oyI=
+		m5qnTleckkk47mZHHGF6KMWQNxs=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/i386.swiftmodule</key>
 		<data>
-		eXyY13IBQUxP/a6WGkxiU3E8oyI=
+		m5qnTleckkk47mZHHGF6KMWQNxs=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9XnxZ+QyHN7KZYcWPuroVpsaw2M=
+		ZJl+xWORYxB1edh85bG0N2F+JJ8=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		9XnxZ+QyHN7KZYcWPuroVpsaw2M=
+		ZJl+xWORYxB1edh85bG0N2F+JJ8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -111,11 +111,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WG9wMr2QML7WLCi0kGSv4Yc2D6I=
+			16PW8l/j0nExSCv/MfleYIB4sVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			2haRMzqnARlwShZmSFr9x2lVPxewrPvOMEtNx42plxo=
+			F6jOG/alUNyCAcsGQpegjj2prxpPfunkDnXuDLp8cfs=
 			</data>
 		</dict>
 		<key>Frameworks/BSChatBotClient.framework/Info.plist</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kpkQjm6q8JkSdzDCYDvV2DlzOj8=
+			QDfxq9iKovnhTdy1s1jKNr1GJ7s=
 			</data>
 			<key>hash2</key>
 			<data>
-			TvLuUPkHa0+Pl2Ist1yiM9fk1se5cd5fTLzxtVX9GNc=
+			Xaqpc8VMp/FzXAPtNDeU6rYBSnEjaZIc6pjba5sziNQ=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/arm64.swiftdoc</key>
@@ -221,11 +221,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kpkQjm6q8JkSdzDCYDvV2DlzOj8=
+			QDfxq9iKovnhTdy1s1jKNr1GJ7s=
 			</data>
 			<key>hash2</key>
 			<data>
-			TvLuUPkHa0+Pl2Ist1yiM9fk1se5cd5fTLzxtVX9GNc=
+			Xaqpc8VMp/FzXAPtNDeU6rYBSnEjaZIc6pjba5sziNQ=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -254,11 +254,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eXyY13IBQUxP/a6WGkxiU3E8oyI=
+			m5qnTleckkk47mZHHGF6KMWQNxs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tf3L4c92o5c/sH5FhTQ/fIKV3vv092TGg2GB3bAbb34=
+			RYk+89ZInsvvMqhgm3mKpC8ABGNH+O0kD5NHRPQDgmE=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/i386.swiftdoc</key>
@@ -287,11 +287,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eXyY13IBQUxP/a6WGkxiU3E8oyI=
+			m5qnTleckkk47mZHHGF6KMWQNxs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tf3L4c92o5c/sH5FhTQ/fIKV3vv092TGg2GB3bAbb34=
+			RYk+89ZInsvvMqhgm3mKpC8ABGNH+O0kD5NHRPQDgmE=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -320,11 +320,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9XnxZ+QyHN7KZYcWPuroVpsaw2M=
+			ZJl+xWORYxB1edh85bG0N2F+JJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			JYc5MC3op1T/OGAonEn0fwwerI+PV0YJVJgJAgJn980=
+			M56egOp6PEeOBq6HHihr5ttWVIY4nL42Z2hijaEdkR4=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/x86_64.swiftdoc</key>
@@ -353,11 +353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9XnxZ+QyHN7KZYcWPuroVpsaw2M=
+			ZJl+xWORYxB1edh85bG0N2F+JJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			JYc5MC3op1T/OGAonEn0fwwerI+PV0YJVJgJAgJn980=
+			M56egOp6PEeOBq6HHihr5ttWVIY4nL42Z2hijaEdkR4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
