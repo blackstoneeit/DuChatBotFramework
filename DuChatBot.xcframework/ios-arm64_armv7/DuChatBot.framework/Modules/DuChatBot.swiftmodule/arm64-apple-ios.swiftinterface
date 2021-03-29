@@ -5,29 +5,50 @@ import BSChatBotClient
 @_exported import DuChatBot
 import Foundation
 import Swift
+public struct DuTextParseResult {
+  public let value: Swift.String
+  public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
+  public let watermark: Swift.Int?
+  public let locale: DuChatBot.DuChatBotLocale
+}
+public enum DuChatBotLocale : Swift.String, Swift.Codable {
+  case en, ar
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public enum DuChatBotParseResult {
-  case text(value: Swift.String, suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case menu(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case accounts(accounts: [DuChatBot.DuChatBotAccount], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case contracts(text: Swift.String, contracts: [DuChatBot.DuChatBotContract], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case recharge(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case paymentHistory(paymentHistory: [DuChatBot.DuChatBotPaymentHistory], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case rate(text: Swift.String, suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case confirmation(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case inputFeedback(text: Swift.String, suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case payBill(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case idStatus(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case login(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case forgotLoginDetails(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case handover(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case rechargeHistory(rechargeHistory: [DuChatBot.DuChatBotRechargeHistory], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case orders(orders: [DuChatBot.DuChatBotOrder], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case vas(vas: [DuChatBot.DuChatBotVAS], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
-  case confirmVASUnsubscription(confirmVASUnsubscription: DuChatBot.DuChatBotConfirmVASUnsubscription, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuChatBotSuggestedAction], watermark: Swift.Int?)
+  case text(value: DuChatBot.DuTextParseResult)
+  case menu(value: DuChatBot.DuButtonsParseResult)
+  case accounts(value: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotAccount]>)
+  case contracts(value: DuChatBot.DuContractsParseResult)
+  case recharge(value: DuChatBot.DuButtonsParseResult)
+  case paymentHistory(value: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotPaymentHistory]>)
+  case rate(value: DuChatBot.DuTextParseResult)
+  case confirmation(value: DuChatBot.DuButtonsParseResult)
+  case inputFeedback(value: DuChatBot.DuTextParseResult)
+  case payBill(value: DuChatBot.DuButtonsParseResult)
+  case idStatus(value: DuChatBot.DuButtonsParseResult)
+  case login(value: DuChatBot.DuButtonsParseResult)
+  case forgotLoginDetails(value: DuChatBot.DuButtonsParseResult)
+  case handover(value: DuChatBot.DuButtonsParseResult)
+  case rechargeHistory(value: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotRechargeHistory]>)
+  case orders(value: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotOrder]>)
+  case vas(value: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotVAS]>)
+  case confirmVASUnsubscription(value: DuChatBot.DuConfirmVASUnsubscriptionParseResult)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
   public let mobileNumber: Swift.String
+}
+public struct DuContractsParseResult {
+  public let text: Swift.String
+  public let value: [DuChatBot.DuChatBotContract]
+  public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
+  public let watermark: Swift.Int?
+  public let locale: DuChatBot.DuChatBotLocale
 }
 public enum DuChatBotContractType : Swift.String, Swift.Codable {
   case prepaid
@@ -77,6 +98,13 @@ public struct DuChatBotButton : Swift.Decodable {
   public let data: Swift.String?
   public init(from decoder: Swift.Decoder) throws
 }
+public struct DuButtonsParseResult {
+  public let text: Swift.String
+  public let buttons: [DuChatBot.DuChatBotButton]
+  public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
+  public let watermark: Swift.Int?
+  public let locale: DuChatBot.DuChatBotLocale
+}
 public enum DuChatBotConfigurator {
   public enum DuChatBotEnvironment {
     case tqc
@@ -90,6 +118,13 @@ public enum DuChatBotConfigurator {
     public func hash(into hasher: inout Swift.Hasher)
   }
   public static func configure(with environment: DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment)
+}
+public struct DuConfirmVASUnsubscriptionParseResult {
+  public let value: DuChatBot.DuChatBotConfirmVASUnsubscription
+  public let buttons: [DuChatBot.DuChatBotButton]
+  public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
+  public let watermark: Swift.Int?
+  public let locale: DuChatBot.DuChatBotLocale
 }
 public struct DuChatBotOrder {
   public let number: Swift.String
@@ -108,11 +143,20 @@ public struct DuChatBotRechargeHistory {
   public let date: Swift.String
   public let time: Swift.String
 }
+public struct DuObjectParseResult<T> {
+  public let value: T
+  public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
+  public let watermark: Swift.Int?
+  public let locale: DuChatBot.DuChatBotLocale
+}
 public struct DuChatBotPaymentHistory {
   public let date: Swift.String
   public let source: Swift.String
   public let amount: Swift.String
 }
+extension DuChatBot.DuChatBotLocale : Swift.Equatable {}
+extension DuChatBot.DuChatBotLocale : Swift.Hashable {}
+extension DuChatBot.DuChatBotLocale : Swift.RawRepresentable {}
 extension DuChatBot.DuChatBotContractType : Swift.Equatable {}
 extension DuChatBot.DuChatBotContractType : Swift.Hashable {}
 extension DuChatBot.DuChatBotContractType : Swift.RawRepresentable {}
