@@ -38,6 +38,7 @@ public enum DuChatBotParseResult {
   case orders(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotOrder]>)
   case vas(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotVAS]>)
   case confirmVASUnsubscription(result: DuChatBot.DuConfirmVASUnsubscriptionParseResult)
+  case termsAndConditions(result: DuChatBot.DuButtonsParseResult)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
@@ -67,6 +68,9 @@ public struct DuChatBotVAS {
   }
   public let name: Swift.String
   public let expiryDate: Swift.String
+  public var price: Swift.Double {
+    get
+  }
 }
 public struct DuChatBotContract : Swift.Decodable {
   public let title: Swift.String
