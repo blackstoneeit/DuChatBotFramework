@@ -39,6 +39,7 @@ public enum DuChatBotParseResult {
   case vas(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotVAS]>)
   case confirmVASUnsubscription(result: DuChatBot.DuConfirmVASUnsubscriptionParseResult)
   case termsAndConditions(result: DuChatBot.DuButtonsParseResult)
+  case contactForm(result: DuChatBot.DuButtonsParseResult)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
@@ -97,7 +98,7 @@ public class DuParsingEngine : BSChatBotClient.ParsingEngine {
   @objc deinit
 }
 public struct DuChatBotButton : Swift.Decodable {
-  public let id: Swift.String
+  public let id: Swift.String?
   public let title: Swift.String?
   public let data: Swift.String?
   public init(from decoder: Swift.Decoder) throws
