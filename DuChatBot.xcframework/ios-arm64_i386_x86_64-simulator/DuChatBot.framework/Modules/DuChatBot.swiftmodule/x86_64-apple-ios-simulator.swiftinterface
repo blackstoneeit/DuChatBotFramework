@@ -19,6 +19,14 @@ public enum DuChatBotLocale : Swift.String, Swift.Codable {
     get
   }
 }
+public struct DuChatBotIdStatus {
+  public var statusMessage: Swift.String {
+    get
+  }
+  public var statusNumberMessage: Swift.String {
+    get
+  }
+}
 public enum DuChatBotParseResult {
   case text(result: DuChatBot.DuTextParseResult)
   case menu(result: DuChatBot.DuButtonsParseResult)
@@ -30,7 +38,7 @@ public enum DuChatBotParseResult {
   case confirmation(result: DuChatBot.DuButtonsParseResult)
   case inputFeedback(result: DuChatBot.DuTextParseResult)
   case payBill(result: DuChatBot.DuButtonsParseResult)
-  case idStatus(result: DuChatBot.DuButtonsParseResult)
+  case forgotIdStatus(result: DuChatBot.DuButtonsParseResult)
   case login(result: DuChatBot.DuButtonsParseResult)
   case forgotLoginDetails(result: DuChatBot.DuButtonsParseResult)
   case handover(result: DuChatBot.DuButtonsParseResult)
@@ -40,6 +48,7 @@ public enum DuChatBotParseResult {
   case confirmVASUnsubscription(result: DuChatBot.DuConfirmVASUnsubscriptionParseResult)
   case termsAndConditions(result: DuChatBot.DuButtonsParseResult)
   case contactForm(result: DuChatBot.DuButtonsParseResult)
+  case idStatus(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotIdStatus>)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
