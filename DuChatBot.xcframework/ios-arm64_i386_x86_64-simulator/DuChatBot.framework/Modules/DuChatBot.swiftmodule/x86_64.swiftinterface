@@ -11,7 +11,7 @@ public struct DuTextParseResult {
   public let watermark: Swift.Int?
   public let locale: DuChatBot.DuChatBotLocale
 }
-public enum DuChatBotLocale : Swift.String, Swift.Codable {
+@frozen public enum DuChatBotLocale : Swift.String, Swift.Codable {
   case en, ar
   public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
@@ -49,10 +49,19 @@ public enum DuChatBotParseResult {
   case termsAndConditions(result: DuChatBot.DuButtonsParseResult)
   case contactForm(result: DuChatBot.DuButtonsParseResult)
   case idStatus(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotIdStatus>)
+  case myConsumption(result: DuChatBot.DuMyConsumptionParseResult)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
   public let mobileNumber: Swift.String
+}
+public struct DuMyConsumptionParseResult {
+  public let text: Swift.String
+  public let value: DuChatBot.DuChatBotAccountDetails
+  public let buttons: [DuChatBot.DuChatBotButton]
+  public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
+  public let watermark: Swift.Int?
+  public let locale: DuChatBot.DuChatBotLocale
 }
 public struct DuContractsParseResult {
   public let text: Swift.String
@@ -86,6 +95,10 @@ public struct DuChatBotContract : Swift.Decodable {
   public let title: Swift.String
   public let value: Swift.String
   public init(from decoder: Swift.Decoder) throws
+}
+public struct DuChatBotAccountDetails : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 public struct DuChatBotAccountContract {
   public let number: Swift.String
