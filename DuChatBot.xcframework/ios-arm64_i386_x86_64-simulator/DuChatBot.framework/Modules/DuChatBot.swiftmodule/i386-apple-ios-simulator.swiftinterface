@@ -97,6 +97,10 @@ public struct DuChatBotContract : Swift.Decodable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct DuChatBotAccountDetails : Swift.Codable {
+  public let customerCode: Swift.String
+  public let contractCode: Swift.String
+  public let msisdn: Swift.String
+  public let customerId: Swift.String
   public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
 }
