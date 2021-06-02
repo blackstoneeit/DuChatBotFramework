@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'DuChatBot.xcframework'
   
-  s.dependency 'BSChatBotClientFramework', '1.1.3'
+  s.dependency 'BSChatBotClientFramework', '1.1.2'
 end
