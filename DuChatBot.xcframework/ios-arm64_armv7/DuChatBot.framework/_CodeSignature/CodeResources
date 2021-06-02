@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/BSChatBotClient.framework/BSChatBotClient</key>
-		<data>
-		3lF/grBwVCAKGPnsKdG29zXDwRY=
-		</data>
-		<key>Frameworks/BSChatBotClient.framework/Info.plist</key>
-		<data>
-		UhArHFYJQykyEQHIMJb3yc4X2xI=
-		</data>
-		<key>Frameworks/BSChatBotClient.framework/_CodeSignature/CodeResources</key>
-		<data>
-		TOVjL3Bu1UCKZbf55ERJZ+OL3/o=
-		</data>
 		<key>Headers/DuChatBot-Swift.h</key>
 		<data>
 		Fm+tEYRdpHErbJOAKuKivcSgJ2Q=
@@ -38,7 +26,7 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm.swiftmodule</key>
 		<data>
-		po4OaVOmopVYTD6mnyJEnSWvEn8=
+		3e4KmoAoLKm6G6DxtPqsWmfeiM0=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -50,7 +38,7 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fBpLne+Hli3Xj04jj6yMsW5my0g=
+		KlwdNDQJPkH9+usyxR0JpU7zgKw=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -62,7 +50,7 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		fBpLne+Hli3Xj04jj6yMsW5my0g=
+		KlwdNDQJPkH9+usyxR0JpU7zgKw=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -74,7 +62,7 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		po4OaVOmopVYTD6mnyJEnSWvEn8=
+		3e4KmoAoLKm6G6DxtPqsWmfeiM0=
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -86,7 +74,7 @@
 		</data>
 		<key>Modules/DuChatBot.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		po4OaVOmopVYTD6mnyJEnSWvEn8=
+		3e4KmoAoLKm6G6DxtPqsWmfeiM0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,39 +83,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/BSChatBotClient.framework/BSChatBotClient</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3lF/grBwVCAKGPnsKdG29zXDwRY=
-			</data>
-			<key>hash2</key>
-			<data>
-			+yj44JUxmchrugUGSGiwDZHnGMn+DGHfj/Fb0Kc8XZE=
-			</data>
-		</dict>
-		<key>Frameworks/BSChatBotClient.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UhArHFYJQykyEQHIMJb3yc4X2xI=
-			</data>
-			<key>hash2</key>
-			<data>
-			fsEv/T656ptUdc2jbIP5ey4SoIwnQpXCDlXW5VP8E1E=
-			</data>
-		</dict>
-		<key>Frameworks/BSChatBotClient.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TOVjL3Bu1UCKZbf55ERJZ+OL3/o=
-			</data>
-			<key>hash2</key>
-			<data>
-			htbQK7oxzc5xR6os7e+I5G8xTOD/vJAD7+Y+eZU43cA=
-			</data>
-		</dict>
 		<key>Headers/DuChatBot-Swift.h</key>
 		<dict>
 			<key>hash</key>
@@ -176,11 +131,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			po4OaVOmopVYTD6mnyJEnSWvEn8=
+			3e4KmoAoLKm6G6DxtPqsWmfeiM0=
 			</data>
 			<key>hash2</key>
 			<data>
-			oKs9YUzuWg1qfIzQ8CjNVseVPsuIbLx7U3OUO+epx5A=
+			REP+31Ry9Cntsi3pOgPW2Rce5uEmjGpu2CVe2Nyg/Ek=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -209,11 +164,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fBpLne+Hli3Xj04jj6yMsW5my0g=
+			KlwdNDQJPkH9+usyxR0JpU7zgKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			moaL1YqT5xFgGvKj7Ra2OgDrZQdDBWG4bfvSrLjrinY=
+			/21R3eVnqGTrWFSV8NLE7E9+3SMu2KkE8WopeDtoXSA=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/arm64.swiftdoc</key>
@@ -242,11 +197,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fBpLne+Hli3Xj04jj6yMsW5my0g=
+			KlwdNDQJPkH9+usyxR0JpU7zgKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			moaL1YqT5xFgGvKj7Ra2OgDrZQdDBWG4bfvSrLjrinY=
+			/21R3eVnqGTrWFSV8NLE7E9+3SMu2KkE8WopeDtoXSA=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -275,11 +230,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			po4OaVOmopVYTD6mnyJEnSWvEn8=
+			3e4KmoAoLKm6G6DxtPqsWmfeiM0=
 			</data>
 			<key>hash2</key>
 			<data>
-			oKs9YUzuWg1qfIzQ8CjNVseVPsuIbLx7U3OUO+epx5A=
+			REP+31Ry9Cntsi3pOgPW2Rce5uEmjGpu2CVe2Nyg/Ek=
 			</data>
 		</dict>
 		<key>Modules/DuChatBot.swiftmodule/armv7.swiftdoc</key>
@@ -308,11 +263,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			po4OaVOmopVYTD6mnyJEnSWvEn8=
+			3e4KmoAoLKm6G6DxtPqsWmfeiM0=
 			</data>
 			<key>hash2</key>
 			<data>
-			oKs9YUzuWg1qfIzQ8CjNVseVPsuIbLx7U3OUO+epx5A=
+			REP+31Ry9Cntsi3pOgPW2Rce5uEmjGpu2CVe2Nyg/Ek=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

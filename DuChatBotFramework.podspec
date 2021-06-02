@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/tareksabry1337/DuChatBotFramework'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tarek Sabry' => 'tareqs@blackstoneeit.com' }
-  s.source           = { :http => 'https://github.com/tareksabry1337/DuChatBotFramework/releases/download/1.0.0/DuChatBot.zip', }
+  s.source           = { :http => 'https://github.com/tareksabry1337/DuChatBotFramework/releases/download/1.1.2/DuChatBot.zip', }
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'DuChatBot.xcframework'
   
-  s.dependency 'BSChatBotClientFramework', '1.0.0'
+  s.dependency 'BSChatBotClientFramework', '1.1.2'
 end
