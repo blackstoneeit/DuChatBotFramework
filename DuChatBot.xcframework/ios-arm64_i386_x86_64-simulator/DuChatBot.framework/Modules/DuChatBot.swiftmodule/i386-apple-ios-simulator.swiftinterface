@@ -138,9 +138,9 @@ public struct DuButtonsParseResult {
 }
 public enum DuChatBotConfigurator {
   public enum DuChatBotEnvironment {
-    case tqc
-    case previewMajor
+    case tqcMajor
     case previewMinor
+    case previewMajor
     case production
     public static func == (a: DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment, b: DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
