@@ -31,7 +31,7 @@ public enum DuChatBotParseResult {
   case text(result: DuChatBot.DuTextParseResult)
   case menu(result: DuChatBot.DuButtonsParseResult)
   case accounts(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotAccount]>)
-  case contracts(result: DuChatBot.DuContractsParseResult)
+  case contracts(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotContract]>)
   case recharge(result: DuChatBot.DuButtonsParseResult)
   case paymentHistory(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotPaymentHistory]>)
   case rate(result: DuChatBot.DuTextParseResult)
@@ -63,24 +63,6 @@ public struct DuMyConsumptionParseResult {
   public let watermark: Swift.Int?
   public let locale: DuChatBot.DuChatBotLocale
 }
-public struct DuContractsParseResult {
-  public let text: Swift.String
-  public let value: [DuChatBot.DuChatBotContract]
-  public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
-  public let watermark: Swift.Int?
-  public let locale: DuChatBot.DuChatBotLocale
-}
-public enum DuChatBotContractType : Swift.String, Swift.Codable {
-  case prepaid
-  case postpaid
-  case home
-  case unknown
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 public struct DuChatBotVAS {
   public var id: Swift.String {
     get
@@ -92,8 +74,8 @@ public struct DuChatBotVAS {
   }
 }
 public struct DuChatBotContract : Swift.Decodable {
-  public let title: Swift.String
-  public let value: Swift.String
+  public let number: Swift.String
+  public let name: Swift.String
   public init(from decoder: Swift.Decoder) throws
 }
 public struct DuChatBotAccountDetails : Swift.Codable {
@@ -104,14 +86,9 @@ public struct DuChatBotAccountDetails : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public struct DuChatBotAccountContract {
-  public let number: Swift.String
-  public let name: Swift.String
-  public let type: DuChatBot.DuChatBotContractType?
-}
-public struct DuChatBotAccount {
+public struct DuChatBotAccount : Swift.Decodable {
   public let customerCode: Swift.String
-  public let contracts: [DuChatBot.DuChatBotAccountContract]
+  public init(from decoder: Swift.Decoder) throws
 }
 public protocol DuParsingEngineDelegate : AnyObject {
   func parsingEngine(_ parsingEngine: DuChatBot.DuParsingEngine, didParseActivityWithResult result: DuChatBot.DuChatBotParseResult)
@@ -175,6 +152,7 @@ public struct DuChatBotRechargeHistory {
   public let time: Swift.String
 }
 public struct DuObjectParseResult<T> {
+  public let text: Swift.String?
   public let value: T
   public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
   public let watermark: Swift.Int?
@@ -188,8 +166,5 @@ public struct DuChatBotPaymentHistory {
 extension DuChatBot.DuChatBotLocale : Swift.Equatable {}
 extension DuChatBot.DuChatBotLocale : Swift.Hashable {}
 extension DuChatBot.DuChatBotLocale : Swift.RawRepresentable {}
-extension DuChatBot.DuChatBotContractType : Swift.Equatable {}
-extension DuChatBot.DuChatBotContractType : Swift.Hashable {}
-extension DuChatBot.DuChatBotContractType : Swift.RawRepresentable {}
 extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Equatable {}
 extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Hashable {}
