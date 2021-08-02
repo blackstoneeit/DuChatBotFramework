@@ -54,7 +54,8 @@ public enum DuChatBotParseResult {
   case contractInactivePendingPayment(result: DuChatBot.DuButtonsParseResult)
   case contractInactiveIdExpiry(result: DuChatBot.DuTextParseResult)
   case contractInactivePendingPaymentIdExpiry(result: DuChatBot.DuButtonsParseResult)
-  case contractActive(result: DuChatBot.DuTextParseResult)
+  case mobileContractActive(result: DuChatBot.DuTextParseResult)
+  case fixedContractActive(result: DuChatBot.DuTextParseResult)
   case bundleInactive(result: DuChatBot.DuButtonsParseResult)
   case bundleActive(result: DuChatBot.DuButtonsParseResult)
 }
