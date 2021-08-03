@@ -58,7 +58,7 @@ public enum DuChatBotParseResult {
   case fixedContractActive(result: DuChatBot.DuTextParseResult)
   case bundleInactive(result: DuChatBot.DuButtonsParseResult)
   case bundleActive(result: DuChatBot.DuButtonsParseResult)
-  case previouslySelectedAccount(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotPreviouslySelectedAccount>)
+  case previouslySelectedAccount(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
   case selectCreditHighReason(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotCreditIsHighReason]>)
   case billIsHigh(result: DuChatBot.DuButtonsParseResult)
   case creditUsage(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePairs]>)
@@ -157,11 +157,6 @@ public struct DuChatBotOrder {
   public let number: Swift.String
   public let date: Swift.String
   public let status: Swift.String
-}
-public struct DuChatBotPreviouslySelectedAccount {
-  public let accountNumber: Swift.String
-  public let planName: Swift.String
-  public let msisdn: Swift.String
 }
 public struct DuChatBotSuggestedAction : Swift.Codable {
   public let title: Swift.String
