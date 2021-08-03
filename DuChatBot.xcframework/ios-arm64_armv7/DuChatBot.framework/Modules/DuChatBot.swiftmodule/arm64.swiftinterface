@@ -187,6 +187,10 @@ public struct DuChatBotKeyValuePairs {
   public let pairs: [DuChatBot.DuChatBotKeyValuePair]
 }
 public struct DuChatBotKeyValuePair {
+  public var key: Swift.String {
+    get
+  }
+  public let value: Swift.String
 }
 extension DuChatBot.DuChatBotLocale : Swift.Equatable {}
 extension DuChatBot.DuChatBotLocale : Swift.Hashable {}
