@@ -72,6 +72,7 @@ public enum DuChatBotParseResult {
   case troubleTicketDetails(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotTroubleTicketDetails>)
   case ticketNote(result: DuChatBot.DuTextParseResult)
   case changeOwnership(result: DuChatBot.DuButtonsParseResult)
+  case buyDataBundle(result: DuChatBot.DuButtonsParseResult)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
