@@ -32,6 +32,9 @@ public struct DuChatBotIdStatus {
     get
   }
 }
+extension Array {
+  public func chunked(into size: Swift.Int) -> [[Element]]
+}
 public enum DuChatBotParseResult {
   case text(result: DuChatBot.DuTextParseResult)
   case menu(result: DuChatBot.DuButtonsParseResult)
