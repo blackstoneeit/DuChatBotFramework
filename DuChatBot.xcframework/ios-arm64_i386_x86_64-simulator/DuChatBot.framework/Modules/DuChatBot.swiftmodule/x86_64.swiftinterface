@@ -101,12 +101,6 @@ public struct DuChatBotVAS {
     get
   }
 }
-public struct DuChatBotContract : Swift.Decodable {
-  public let id: Swift.String
-  public let number: Swift.String
-  public let name: Swift.String
-  public init(from decoder: Swift.Decoder) throws
-}
 public struct DuChatBotAccountDetails : Swift.Codable {
   public let customerCode: Swift.String
   public let contractCode: Swift.String
@@ -156,6 +150,24 @@ public enum DuChatBotConfigurator {
     }
   }
   public static func configure(with environment: DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment)
+}
+public struct DuChatBotContract {
+  public struct Contract {
+    public let name: Swift.String
+    public let number: Swift.String
+  }
+  public enum `Type` {
+    case mobile, fixed
+    public static func == (a: DuChatBot.DuChatBotContract.`Type`, b: DuChatBot.DuChatBotContract.`Type`) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public let id: Swift.String
+  public let parentContract: DuChatBot.DuChatBotContract.Contract
+  public let childContracts: [DuChatBot.DuChatBotContract.Contract]
+  public let type: DuChatBot.DuChatBotContract.`Type`
 }
 public struct DuConfirmVASUnsubscriptionParseResult {
   public let value: DuChatBot.DuChatBotConfirmVASUnsubscription
@@ -215,3 +227,5 @@ extension DuChatBot.DuChatBotLocale : Swift.Hashable {}
 extension DuChatBot.DuChatBotLocale : Swift.RawRepresentable {}
 extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Equatable {}
 extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Hashable {}
+extension DuChatBot.DuChatBotContract.`Type` : Swift.Equatable {}
+extension DuChatBot.DuChatBotContract.`Type` : Swift.Hashable {}
