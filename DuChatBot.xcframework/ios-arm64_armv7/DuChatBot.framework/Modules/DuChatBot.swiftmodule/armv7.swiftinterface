@@ -77,6 +77,8 @@ public enum DuChatBotParseResult {
   case changeOwnership(result: DuChatBot.DuButtonsParseResult)
   case buyDataBundle(result: DuChatBot.DuButtonsParseResult)
   case internetTroubleshoot(result: DuChatBot.DuButtonsParseResult)
+  case upgradeDowngradePlan(result: DuChatBot.DuButtonsParseResult)
+  case unbilledBalance(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
