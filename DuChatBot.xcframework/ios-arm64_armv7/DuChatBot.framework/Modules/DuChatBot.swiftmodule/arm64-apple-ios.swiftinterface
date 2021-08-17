@@ -79,6 +79,7 @@ public enum DuChatBotParseResult {
   case internetTroubleshoot(result: DuChatBot.DuButtonsParseResult)
   case upgradeDowngradePlan(result: DuChatBot.DuButtonsParseResult)
   case unbilledBalance(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
+  case contractStatus(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>, status: DuChatBot.DuChatBotContractStatus)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
@@ -129,6 +130,14 @@ public class DuParsingEngine : BSChatBotClient.ParsingEngine {
   public func parse(json: [Swift.String : Any], forId id: Swift.String, watermark: Swift.Int?)
   @objc deinit
 }
+@frozen public enum DuChatBotContractStatus {
+  case active, inactive
+  public static func == (a: DuChatBot.DuChatBotContractStatus, b: DuChatBot.DuChatBotContractStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct DuChatBotButton : Swift.Decodable {
   public let id: Swift.String?
   public let title: Swift.String?
@@ -162,7 +171,7 @@ public struct DuChatBotContract {
     public let name: Swift.String
     public let number: Swift.String
   }
-  public enum `Type` {
+  @frozen public enum `Type` {
     case mobile, fixed
     public static func == (a: DuChatBot.DuChatBotContract.`Type`, b: DuChatBot.DuChatBotContract.`Type`) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
@@ -231,6 +240,8 @@ public struct DuChatBotKeyValuePair {
 extension DuChatBot.DuChatBotLocale : Swift.Equatable {}
 extension DuChatBot.DuChatBotLocale : Swift.Hashable {}
 extension DuChatBot.DuChatBotLocale : Swift.RawRepresentable {}
+extension DuChatBot.DuChatBotContractStatus : Swift.Equatable {}
+extension DuChatBot.DuChatBotContractStatus : Swift.Hashable {}
 extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Equatable {}
 extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Hashable {}
 extension DuChatBot.DuChatBotContract.`Type` : Swift.Equatable {}
