@@ -83,7 +83,6 @@ public enum DuChatBotParseResult {
   case renewableContract(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
   case proceedWithRenewal(result: DuChatBot.DuObjectParseResult<Swift.String>)
   case renewContract(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotRenewContractDetails>)
-  case renewAnotherContract(result: DuChatBot.DuButtonsParseResult)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
