@@ -70,19 +70,19 @@ public enum DuChatBotParseResult {
   case selectCreditHighReason(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotCreditIsHighReason]>)
   case billIsHigh(result: DuChatBot.DuButtonsParseResult)
   case creditUsage(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePairs]>)
-  case billingDetails(result: DuChatBot.DuButtonsParseResult)
+  case billingDetails(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case troubleTickets(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotTroubleTicket]>)
   case troubleTicketDetails(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotTroubleTicketDetails>)
   case ticketNote(result: DuChatBot.DuTextParseResult)
   case changeOwnership(result: DuChatBot.DuButtonsParseResult)
-  case buyDataBundle(result: DuChatBot.DuButtonsParseResult)
-  case internetTroubleshoot(result: DuChatBot.DuButtonsParseResult)
-  case upgradeDowngradePlan(result: DuChatBot.DuButtonsParseResult)
+  case buyDataBundle(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
+  case internetTroubleshoot(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
+  case upgradeDowngradePlan(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case unbilledBalance(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
   case contractStatus(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>, status: DuChatBot.DuChatBotContractStatus)
   case renewableContract(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
   case proceedWithRenewal(result: DuChatBot.DuObjectParseResult<Swift.String>)
-  case renewContract(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotRenewContractDetails>)
+  case renewContract(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
@@ -113,9 +113,7 @@ public struct DuChatBotVAS {
 }
 public struct DuChatBotAccountDetails : Swift.Codable {
   public let customerCode: Swift.String
-  public let contractCode: Swift.String
   public let msisdn: Swift.String
-  public let customerId: Swift.String
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -196,10 +194,6 @@ public struct DuChatBotContract {
   public let parentContract: DuChatBot.DuChatBotContract.Contract
   public let childContracts: [DuChatBot.DuChatBotContract.Contract]
   public let type: DuChatBot.DuChatBotContract.`Type`
-}
-public struct DuChatBotRenewContractDetails {
-  public let customerCode: Swift.String
-  public let msisdn: Swift.String
 }
 public struct DuConfirmVASUnsubscriptionParseResult {
   public let value: DuChatBot.DuChatBotConfirmVASUnsubscription
