@@ -68,7 +68,7 @@ public enum DuChatBotParseResult {
   case bundleActive(result: DuChatBot.DuButtonsParseResult)
   case previouslySelectedAccount(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
   case selectCreditHighReason(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotCreditIsHighReason]>)
-  case billIsHigh(result: DuChatBot.DuButtonsParseResult)
+  case billIsHigh(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case creditUsage(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePairs]>)
   case billingDetails(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case troubleTickets(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotTroubleTicket]>)
