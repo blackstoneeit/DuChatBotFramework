@@ -57,7 +57,7 @@ public enum DuChatBotParseResult {
   case termsAndConditions(result: DuChatBot.DuButtonsParseResult)
   case contactForm(result: DuChatBot.DuButtonsParseResult)
   case idStatus(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotIdStatus>)
-  case myConsumption(result: DuChatBot.DuMyConsumptionParseResult)
+  case myConsumption(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case checkingAccount(result: DuChatBot.DuTextParseResult)
   case contractInactivePendingPayment(result: DuChatBot.DuButtonsParseResult)
   case contractInactiveIdExpiry(result: DuChatBot.DuTextParseResult)
@@ -87,14 +87,6 @@ public enum DuChatBotParseResult {
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
   public let mobileNumber: Swift.String
-}
-public struct DuMyConsumptionParseResult {
-  public let text: Swift.String
-  public let value: DuChatBot.DuChatBotAccountDetails
-  public let buttons: [DuChatBot.DuChatBotButton]
-  public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
-  public let watermark: Swift.Int?
-  public let locale: DuChatBot.DuChatBotLocale
 }
 public struct DuChatBotCreditIsHighReason : Swift.Decodable {
   public let title: Swift.String
