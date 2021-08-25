@@ -69,7 +69,7 @@ public enum DuChatBotParseResult {
   case previouslySelectedAccount(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
   case selectCreditHighReason(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotCreditIsHighReason]>)
   case billIsHigh(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
-  case creditUsage(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePairs]>)
+  case creditUsage(result: DuChatBot.DuObjectParseResult<[[DuChatBot.DuChatBotKeyValuePair]]>)
   case billingDetails(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case troubleTickets(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotTroubleTicket]>)
   case troubleTicketDetails(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotTroubleTicketDetails>)
@@ -81,6 +81,7 @@ public enum DuChatBotParseResult {
   case unbilledBalance(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
   case contractStatus(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>, status: DuChatBot.DuChatBotContractStatus)
   case renewableContract(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
+  case renewableContracts(result: DuChatBot.DuObjectParseResult<[[DuChatBot.DuChatBotKeyValuePair]]>)
   case proceedWithRenewal(result: DuChatBot.DuObjectParseResult<Swift.String>)
   case renewContract(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
 }
