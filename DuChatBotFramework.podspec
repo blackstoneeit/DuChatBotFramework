@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DuChatBotFramework'
-  s.version          = '2.0.44'
+  s.version          = '2.0.45'
   s.summary          = 'DuChatBotFramework'
   s.swift_version    = '5.0'
   s.description      = <<-DESC
@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/blackstoneeit/DuChatBotFramework'
   s.author           = { 'Blackstone eIT' => 'sales@blackstoneeit.com' }
-  s.source           = { :http => 'https://github.com/blackstoneeit/DuChatBotFramework/releases/download/2.0.44/DuChatBot.zip', }
+  s.source           = { :http => 'https://github.com/blackstoneeit/DuChatBotFramework/releases/download/2.0.45/DuChatBot.zip', }
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'DuChatBot.xcframework'
   
-  s.dependency 'BSChatBotClientFramework', '2.0.3'
+  s.dependency 'BSChatBotClientFramework', '2.0.4'
 end
