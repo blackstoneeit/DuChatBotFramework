@@ -14,7 +14,9 @@ public struct DuTextParseResult {
 public struct DuChatBotTroubleTicket {
   public let number: Swift.String
   public let dateOfCreation: Swift.String
-  public let subject: Swift.String
+  public let accountNumber: Swift.String
+  public let toBeResolvedIn: Swift.String
+  public let status: Swift.String
 }
 @frozen public enum DuChatBotLocale : Swift.String, Swift.Codable {
   case en, ar
