@@ -1,10 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DuChatBot
 import BSChatBotClient
 @_exported import DuChatBot
 import Foundation
 import Swift
+import _Concurrency
 public struct DuTextParseResult {
   public let value: Swift.String
   public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
@@ -34,7 +35,7 @@ public struct DuChatBotIdStatus {
     get
   }
 }
-extension Array {
+extension Swift.Array {
   public func chunked(into size: Swift.Int) -> [[Element]]
 }
 public enum DuChatBotParseResult {
@@ -62,7 +63,7 @@ public enum DuChatBotParseResult {
   case myConsumption(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case checkingAccount(result: DuChatBot.DuTextParseResult)
   case contractInactivePendingPayment(result: DuChatBot.DuButtonsParseResult)
-  case contractInactiveIdExpiry(result: DuChatBot.DuButtonsParseResult)
+  case contractInactiveIdExpiry(result: DuChatBot.DuButtonsParseResult, accountDetails: DuChatBot.DuChatBotAccountDetails)
   case contractInactivePendingPaymentIdExpiry(result: DuChatBot.DuButtonsParseResult)
   case mobileContractActive(result: DuChatBot.DuTextParseResult)
   case fixedContractActive(result: DuChatBot.DuTextParseResult)
@@ -87,7 +88,7 @@ public enum DuChatBotParseResult {
   case proceedWithRenewal(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
   case renewContract(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case contractIssuePendingPayment(result: DuChatBot.DuButtonsParseResult)
-  case contractIssueIdExpiry(result: DuChatBot.DuButtonsParseResult)
+  case contractIssueIdExpiry(result: DuChatBot.DuButtonsParseResult, accountDetails: DuChatBot.DuChatBotAccountDetails)
   case contractIssuePendingPaymentIdExpiry(result: DuChatBot.DuButtonsParseResult)
 }
 public struct DuChatBotConfirmVASUnsubscription {
@@ -249,8 +250,10 @@ public struct DuChatBotKeyValuePair {
 extension DuChatBot.DuChatBotLocale : Swift.Equatable {}
 extension DuChatBot.DuChatBotLocale : Swift.Hashable {}
 extension DuChatBot.DuChatBotLocale : Swift.RawRepresentable {}
+extension DuChatBot.DuChatBotLocale : Swift.Sendable {}
 extension DuChatBot.DuChatBotContractStatus : Swift.Equatable {}
 extension DuChatBot.DuChatBotContractStatus : Swift.Hashable {}
+extension DuChatBot.DuChatBotContractStatus : Swift.Sendable {}
 extension DuChatBot.DuChatBotButton.Style : Swift.Equatable {}
 extension DuChatBot.DuChatBotButton.Style : Swift.Hashable {}
 extension DuChatBot.DuChatBotButton.Style : Swift.RawRepresentable {}
@@ -258,3 +261,4 @@ extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Equatable
 extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Hashable {}
 extension DuChatBot.DuChatBotContract.`Type` : Swift.Equatable {}
 extension DuChatBot.DuChatBotContract.`Type` : Swift.Hashable {}
+extension DuChatBot.DuChatBotContract.`Type` : Swift.Sendable {}
