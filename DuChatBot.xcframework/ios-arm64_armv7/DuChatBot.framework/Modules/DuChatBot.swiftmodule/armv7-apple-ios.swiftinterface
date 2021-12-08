@@ -63,7 +63,7 @@ public enum DuChatBotParseResult {
   case myConsumption(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case checkingAccount(result: DuChatBot.DuTextParseResult)
   case contractInactivePendingPayment(result: DuChatBot.DuButtonsParseResult)
-  case contractInactiveIdExpiry(result: DuChatBot.DuButtonsParseResult, accountDetails: DuChatBot.DuChatBotAccountDetails)
+  case contractInactiveIdExpiry(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case contractInactivePendingPaymentIdExpiry(result: DuChatBot.DuButtonsParseResult)
   case mobileContractActive(result: DuChatBot.DuTextParseResult)
   case fixedContractActive(result: DuChatBot.DuTextParseResult)
@@ -88,7 +88,7 @@ public enum DuChatBotParseResult {
   case proceedWithRenewal(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotKeyValuePair]>)
   case renewContract(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case contractIssuePendingPayment(result: DuChatBot.DuButtonsParseResult)
-  case contractIssueIdExpiry(result: DuChatBot.DuButtonsParseResult, accountDetails: DuChatBot.DuChatBotAccountDetails)
+  case contractIssueIdExpiry(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case contractIssuePendingPaymentIdExpiry(result: DuChatBot.DuButtonsParseResult)
 }
 public struct DuChatBotConfirmVASUnsubscription {
