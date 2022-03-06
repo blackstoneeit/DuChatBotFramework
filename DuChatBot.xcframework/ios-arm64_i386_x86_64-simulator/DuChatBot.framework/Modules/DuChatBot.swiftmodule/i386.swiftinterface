@@ -92,6 +92,10 @@ public enum DuChatBotParseResult {
   case contractIssuePendingPaymentIdExpiry(result: DuChatBot.DuButtonsParseResult)
   case payFriendLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case rechargeFriendLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
+  case purchaseAddOnsLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
+  case purchaseICPLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
+  case marketingOffersLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
+  case scheduleStoreAppointmentLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
@@ -115,6 +119,8 @@ public struct DuChatBotVAS {
 public struct DuChatBotAccountDetails : Swift.Codable {
   public let customerCode: Swift.String
   public let msisdn: Swift.String
+  public let contractCode: Swift.String?
+  public let customerId: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
