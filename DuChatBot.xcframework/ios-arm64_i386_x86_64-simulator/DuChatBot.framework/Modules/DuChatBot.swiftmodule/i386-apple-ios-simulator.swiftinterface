@@ -1,11 +1,10 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DuChatBot
 import BSChatBotClient
 @_exported import DuChatBot
 import Foundation
 import Swift
-import _Concurrency
 public struct DuTextParseResult {
   public let value: Swift.String
   public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
@@ -19,10 +18,15 @@ public struct DuChatBotTroubleTicket {
   public let toBeResolvedIn: Swift.String
   public let status: Swift.String
 }
+public struct DuChatBotPackage : Swift.Decodable {
+  public let value: Swift.String
+  public let title: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+}
 @frozen public enum DuChatBotLocale : Swift.String, Swift.Codable {
   case en, ar
-  public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
   public var rawValue: Swift.String {
     get
   }
@@ -35,7 +39,7 @@ public struct DuChatBotIdStatus {
     get
   }
 }
-extension Swift.Array {
+extension Array {
   public func chunked(into size: Swift.Int) -> [[Element]]
 }
 public enum DuChatBotParseResult {
@@ -96,6 +100,9 @@ public enum DuChatBotParseResult {
   case purchaseICPLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case marketingOffersLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case scheduleStoreAppointmentLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
+  case decoders(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotDecoder]>)
+  case packages(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotPackage]>)
+  case tvChannelInfoLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
@@ -121,8 +128,12 @@ public struct DuChatBotAccountDetails : Swift.Codable {
   public let msisdn: Swift.String
   public let contractCode: Swift.String?
   public let customerId: Swift.String?
-  public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct DuChatBotDecoder {
+  public let id: Swift.String
+  public let text: Swift.String
 }
 public struct DuChatBotAccount : Swift.Decodable {
   public let customerCode: Swift.String
@@ -141,17 +152,17 @@ public class DuParsingEngine : BSChatBotClient.ParsingEngine {
 @frozen public enum DuChatBotContractStatus {
   case active, inactive
   public static func == (a: DuChatBot.DuChatBotContractStatus, b: DuChatBot.DuChatBotContractStatus) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
+  public func hash(into hasher: inout Swift.Hasher)
 }
 public struct DuChatBotButton : Swift.Decodable {
   public enum Style : Swift.String, Swift.Decodable {
     case primary
     case secondary
-    public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
     public var rawValue: Swift.String {
       get
     }
@@ -177,10 +188,10 @@ public enum DuChatBotConfigurator {
     case previewMajor
     case production
     public static func == (a: DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment, b: DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
+    public func hash(into hasher: inout Swift.Hasher)
   }
   public static func configure(with environment: DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment)
 }
@@ -192,10 +203,10 @@ public struct DuChatBotContract {
   @frozen public enum `Type` {
     case mobile, fixed
     public static func == (a: DuChatBot.DuChatBotContract.`Type`, b: DuChatBot.DuChatBotContract.`Type`) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
     }
+    public func hash(into hasher: inout Swift.Hasher)
   }
   public let id: Swift.String
   public let parentContract: DuChatBot.DuChatBotContract.Contract
@@ -217,8 +228,8 @@ public struct DuChatBotOrder {
 public struct DuChatBotSuggestedAction : Swift.Codable {
   public let title: Swift.String
   public let value: Swift.String
-  public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 public struct DuChatBotRechargeHistory {
   public let amount: Swift.String
@@ -258,10 +269,8 @@ public struct DuChatBotKeyValuePair {
 extension DuChatBot.DuChatBotLocale : Swift.Equatable {}
 extension DuChatBot.DuChatBotLocale : Swift.Hashable {}
 extension DuChatBot.DuChatBotLocale : Swift.RawRepresentable {}
-extension DuChatBot.DuChatBotLocale : Swift.Sendable {}
 extension DuChatBot.DuChatBotContractStatus : Swift.Equatable {}
 extension DuChatBot.DuChatBotContractStatus : Swift.Hashable {}
-extension DuChatBot.DuChatBotContractStatus : Swift.Sendable {}
 extension DuChatBot.DuChatBotButton.Style : Swift.Equatable {}
 extension DuChatBot.DuChatBotButton.Style : Swift.Hashable {}
 extension DuChatBot.DuChatBotButton.Style : Swift.RawRepresentable {}
@@ -269,4 +278,3 @@ extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Equatable
 extension DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment : Swift.Hashable {}
 extension DuChatBot.DuChatBotContract.`Type` : Swift.Equatable {}
 extension DuChatBot.DuChatBotContract.`Type` : Swift.Hashable {}
-extension DuChatBot.DuChatBotContract.`Type` : Swift.Sendable {}
