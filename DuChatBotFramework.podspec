@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/blackstoneeit/DuChatBotFramework'
   s.author           = { 'Blackstone eIT' => 'sales@blackstoneeit.com' }
-  s.source           = { :http => 'https://github.com/blackstoneeit/DuChatBotFramework/releases/download/2.2.2/DuChatBot.zip', }
+  s.source           = { :http => 'https://github.com/blackstoneeit/DuChatBotFramework/archive/refs/tags/2.2.2.zip', }
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'DuChatBot.xcframework'
   
