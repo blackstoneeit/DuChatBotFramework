@@ -3,77 +3,193 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		58F138E1B81656CC009CC6F55F902E35 /* DuChatBotFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B432E5D95A1CDFB1D8AF5D8A6B2BF8D1 /* Build configuration list for PBXAggregateTarget "DuChatBotFramework" */;
+			buildPhases = (
+				870AEFEB794B68B8B23C28D2B8C749E2 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				33F51F0D2F4FA630E697A0687A6B9C88 /* PBXTargetDependency */,
+			);
+			name = DuChatBotFramework;
+			productName = DuChatBotFramework;
+		};
+		9F1D3425A3BBEAAEE9046FD72DA2BD34 /* BSChatBotClientFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0B12E888DEBD144387CC7D68797310AF /* Build configuration list for PBXAggregateTarget "BSChatBotClientFramework" */;
+			buildPhases = (
+				604470B2C89A8F3FD1EF101AAC22D928 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				6EDEF279D07B87AC8F1FF2AF0C269C1D /* PBXTargetDependency */,
+			);
+			name = BSChatBotClientFramework;
+			productName = BSChatBotClientFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		01FD14B2E35658A942348A78FC2DA0C0 /* DuChatBotFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00914CC52033C910764C8AF097F95D3A /* DuChatBotFramework-dummy.m */; };
-		08662DB82142462B31B4ED60108886B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		08F23C99E7FFCCCF4A8110F4C9449159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6E807DD0BEBFB68D6E07C6833E7AA57A /* Pods-DuChatBotFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A0876FC410258B1D6BC7E8B5138795 /* Pods-DuChatBotFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F05834C7423AB1AE49854A1A3598D7B /* Pods-DuChatBotFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F53BB6C739A160CFCCB9F6A3572DAAB4 /* Pods-DuChatBotFramework_Tests-dummy.m */; };
-		86771173311C2F213F68027A98F835A4 /* DuChatBotFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6946668AD55CA31E455DC764C27DDD /* DuChatBotFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB818B9225E55D3C003CF70F /* DuChatBot.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB818B9125E55D3C003CF70F /* DuChatBot.xcframework */; };
+		00612EA746586C7F8A56CC5D08E2171D /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD37642F981532C2C04F7677EE95261 /* Framer.swift */; };
+		0D39BA2322A493870BF4F13663993285 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AAC7D78C8B01AC22540802181AA216 /* Starscream-dummy.m */; };
+		0E13399581FC0281D142BB362365C046 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7D846AFB3BA07278F4389DDF6C8A03 /* Transport.swift */; };
+		114988AA3F3329250AEAC25D1FF62ADB /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AC455984C09DEBC1397F751C62637 /* NativeEngine.swift */; };
+		127447C9E54FFABE45C8C7CBD05B0162 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5952268B7EE1AEBEA6B1C8DCA80683 /* Security.swift */; };
+		27F5652856621DB9E9FE262A8307AEFB /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C51E19C9FEB17726B17DB5EB052062C /* FoundationHTTPServerHandler.swift */; };
+		2DA5DBD9AC7C708BC266D4E02BEA7BE5 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20C5989DA15268567F8C46E687D69A9 /* HTTPHandler.swift */; };
+		424730E864486C18A0A96C53CB70B818 /* Pods-DuChatBotFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A0876FC410258B1D6BC7E8B5138795 /* Pods-DuChatBotFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BD4A6F729B2D4850C6E8DFDF1EFAC60 /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CE2E01BE9992AFD6167E5F6C84D50 /* FoundationTransport.swift */; };
+		53FB810774874707E7C9BEA24F80A91C /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB28CACE1DDF813CAAA593470DA6DB7 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		607B7285C7E1F1584D2BFB4A66722440 /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DEE2860B0691E528FA74AEC59EB5F1 /* FoundationHTTPHandler.swift */; };
+		659DF1F4C06812E8D63052F3E48C0551 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432A73628123DF97FEBC8FAB658AB92 /* Compression.swift */; };
+		683ED1FE990812E43E739218AB6FE2C0 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32DFE13084AB700F0042CF0BADDC45C /* WebSocket.swift */; };
+		6B1DF7EBD297AA759FCCDE61E122D058 /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CD387C7DAC30A42FA2C43DFE5EAC4E /* WSEngine.swift */; };
+		78A08CAE8C6E730E23262E16A2722800 /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97852546E43B5CBE85721A4E60943C4E /* WSCompression.swift */; };
+		8A73A7B4BB95AED66EBFCA92A6FF4316 /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DF539D4992DF529E623F998B28BA1F /* StringHTTPHandler.swift */; };
+		9320C39B44C18B74F0C0413BB63005D1 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FE786571E8AF740F0617069FF08B2 /* Engine.swift */; };
+		95C1C85CF795AC1860F231D95C225A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B1016A9148CCDA6CC790466C3AA8E698 /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549FEEE9B902F598314FC455788B36A /* FoundationSecurity.swift */; };
+		B29DD943BF54474468C72CCF5009BD4E /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76411948F00C83DB78B85E2BA9BC3F /* TCPTransport.swift */; };
+		B91A474B767A26C49BCE1E8CD4363080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0A9FEBBBF24CFEA2CAF8A95B0D99E38 /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207921C9362F195B5DE46607702D8B3F /* WebSocketServer.swift */; };
+		C8BF04426AA216C5F2D4D9A12B71A810 /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A4460A53530A2AB5DB9996CF51D054 /* FrameCollector.swift */; };
+		E877B0B17AEC973CADF057A7139FFD4F /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C2BAB1E74314F722060E1DA6417F4E /* Data+Extensions.swift */; };
+		EF1730BE28B552927C8683C9F8140C09 /* Pods-DuChatBotFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F53BB6C739A160CFCCB9F6A3572DAAB4 /* Pods-DuChatBotFramework_Tests-dummy.m */; };
+		FA45389C6CE597A60231902FF24A61A9 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414253DDE970DFBD492B0476EBB21F68 /* Server.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E88EB803BE43756699DC27C8DA99819 /* PBXContainerItemProxy */ = {
+		065DD518B019CDA2EA28FD9663883E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		50CBEBF6CA2F773D5179FD3EEDB9C26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1D3425A3BBEAAEE9046FD72DA2BD34;
+			remoteInfo = BSChatBotClientFramework;
+		};
+		71077AEB740AC804D02E5EEFF52CAAB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 58F138E1B81656CC009CC6F55F902E35;
 			remoteInfo = DuChatBotFramework;
 		};
+		BCAE6CDD8189FC3B2CA37554746EE118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1D3425A3BBEAAEE9046FD72DA2BD34;
+			remoteInfo = BSChatBotClientFramework;
+		};
+		F5BBBB267D0B30590FAC5ED2DC74B493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00914CC52033C910764C8AF097F95D3A /* DuChatBotFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DuChatBotFramework-dummy.m"; sourceTree = "<group>"; };
 		0346C9E8A155A0E9C7DA07086F46F237 /* Pods-DuChatBotFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DuChatBotFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		03DF539D4992DF529E623F998B28BA1F /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
+		09A11502119C7ACDD4A91FCFF30A9A8E /* BSChatBotClientFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSChatBotClientFramework.release.xcconfig; sourceTree = "<group>"; };
+		0C913B8FC11A6B2DA7430F7476E3BF76 /* BSChatBotClient.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = BSChatBotClient.xcframework; sourceTree = "<group>"; };
+		0DD37642F981532C2C04F7677EE95261 /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
 		2056FF75FA14E8296D51AB718A051E32 /* Pods-DuChatBotFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DuChatBotFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		22D37761A49A3F078DBB44953376C6D5 /* DuChatBotFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DuChatBotFramework.modulemap; sourceTree = "<group>"; };
-		411DBF8C006C0D9DB17B57E6A8D16B90 /* DuChatBotFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DuChatBotFramework.release.xcconfig; sourceTree = "<group>"; };
-		5B38848127EEE876E4F7CDFEC0EA15AA /* DuChatBotFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DuChatBotFramework-prefix.pch"; sourceTree = "<group>"; };
+		207921C9362F195B5DE46607702D8B3F /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
+		209CE2E01BE9992AFD6167E5F6C84D50 /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
+		29AAC7D78C8B01AC22540802181AA216 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		29C2BAB1E74314F722060E1DA6417F4E /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
+		2AB949DFFA32653FB3EE7F3E1538E8FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2D0FE786571E8AF740F0617069FF08B2 /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
+		2E76411948F00C83DB78B85E2BA9BC3F /* TCPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Sources/Transport/TCPTransport.swift; sourceTree = "<group>"; };
+		312A60DA5AEAA02A552C369D2CDCCB6A /* BSChatBotClientFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSChatBotClientFramework.debug.xcconfig; sourceTree = "<group>"; };
+		3549FEEE9B902F598314FC455788B36A /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
+		414253DDE970DFBD492B0476EBB21F68 /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
+		4FB28CACE1DDF813CAAA593470DA6DB7 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
 		5EAB376B1D998E299C875E6C4D0F9031 /* Pods-DuChatBotFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DuChatBotFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		626BF701AD48C85A8B6BFC90DA723CA2 /* DuChatBotFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DuChatBotFramework-Info.plist"; sourceTree = "<group>"; };
-		6ABBD8686089EDBA342B15B3D99D8337 /* DuChatBotFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DuChatBotFramework.debug.xcconfig; sourceTree = "<group>"; };
+		65DEE2860B0691E528FA74AEC59EB5F1 /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
+		697C80E691422FA64BB2DA1C7E0132A5 /* DuChatBotFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "DuChatBotFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		6E5952268B7EE1AEBEA6B1C8DCA80683 /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
+		703AF707A66CE1C7249146B9B5380E74 /* DuChatBot.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = DuChatBot.xcframework; sourceTree = "<group>"; };
 		71C2185541A419728668443519FBB4DA /* Pods-DuChatBotFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DuChatBotFramework_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74A0876FC410258B1D6BC7E8B5138795 /* Pods-DuChatBotFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DuChatBotFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7B202ACE5B16F0CCAB4620284D262B88 /* DuChatBotFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DuChatBotFramework.release.xcconfig; sourceTree = "<group>"; };
 		83DEDFF228C4848F60C07E5943628F53 /* Pods-DuChatBotFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DuChatBotFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		88C1C5823C08D3AB4F67568186BE36AF /* DuChatBotFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DuChatBotFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8400D8F1AE7A889D532745CB2FC9B177 /* DuChatBotFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DuChatBotFramework.debug.xcconfig; sourceTree = "<group>"; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7D846AFB3BA07278F4389DDF6C8A03 /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport/Transport.swift; sourceTree = "<group>"; };
+		8F1859C997B5C85A6C342A8E246CCF67 /* BSChatBotClientFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "BSChatBotClientFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		97852546E43B5CBE85721A4E60943C4E /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
+		9C51E19C9FEB17726B17DB5EB052062C /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1167E02D385323B4436095CD3E6234A /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
 		AFD6A3206466C1C6F55583A083970478 /* Pods-DuChatBotFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DuChatBotFramework_Tests.modulemap"; sourceTree = "<group>"; };
-		C66B1DDD2D4F47C5052E0D3DA2D902A0 /* DuChatBotFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DuChatBotFramework.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		CB818B9125E55D3C003CF70F /* DuChatBot.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DuChatBot.xcframework; sourceTree = "<group>"; };
-		D21FD595D8528275245C17B4ECD9DA35 /* Pods_DuChatBotFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuChatBotFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A4460A53530A2AB5DB9996CF51D054 /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
+		C432A73628123DF97FEBC8FAB658AB92 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression/Compression.swift; sourceTree = "<group>"; };
+		D20C5989DA15268567F8C46E687D69A9 /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
+		D21FD595D8528275245C17B4ECD9DA35 /* Pods-DuChatBotFramework_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DuChatBotFramework_Tests"; path = Pods_DuChatBotFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A598AA2D2A008A7C62D70C3D920545 /* Pods-DuChatBotFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DuChatBotFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D91FBFEFC4E537BFFC7DCCA7E57562D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DFE7C81155DA5299CAEA7AE89608CAED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D782D1360FB2F89D166D193B2E845FAE /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		DF7471E5A09D427C142768ADF432090A /* DuChatBotFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DuChatBotFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E624705215F133D73CBB37BCDFC6D1B2 /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
+		E6B9CAB5F7DE1806F1C25643FA188A02 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		E900C2AAE716D519F9D4BF18281B90A5 /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
+		E99AC455984C09DEBC1397F751C62637 /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
+		F32DFE13084AB700F0042CF0BADDC45C /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
 		F53BB6C739A160CFCCB9F6A3572DAAB4 /* Pods-DuChatBotFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DuChatBotFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		FF6946668AD55CA31E455DC764C27DDD /* DuChatBotFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DuChatBotFramework-umbrella.h"; sourceTree = "<group>"; };
+		F5CD387C7DAC30A42FA2C43DFE5EAC4E /* WSEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSEngine.swift; path = Sources/Engine/WSEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		50E9860609E4CE44D4CF28D181B2D654 /* Frameworks */ = {
+		2C22695098FAB014B50474E2DBABE4EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB818B9225E55D3C003CF70F /* DuChatBot.xcframework in Frameworks */,
-				08F23C99E7FFCCCF4A8110F4C9449159 /* Foundation.framework in Frameworks */,
+				B91A474B767A26C49BCE1E8CD4363080 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E15F97FAB2B75F3802A09F6914D1C41E /* Frameworks */ = {
+		FFAD7AAE4C11A6D742A81F5F4DD78269 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08662DB82142462B31B4ED60108886B9 /* Foundation.framework in Frameworks */,
+				95C1C85CF795AC1860F231D95C225A2A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		116A5F1BAE0FA79CC1DA8B1C4F233421 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF7471E5A09D427C142768ADF432090A /* DuChatBotFramework.podspec */,
+				2AB949DFFA32653FB3EE7F3E1538E8FD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1825687A8EC4C5CDECD0CA80B0A4CD6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				703AF707A66CE1C7249146B9B5380E74 /* DuChatBot.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1D129521E7FAF1C75D163EB4279550BA /* Pods-DuChatBotFramework_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,13 +207,28 @@
 			path = "Target Support Files/Pods-DuChatBotFramework_Tests";
 			sourceTree = "<group>";
 		};
-		301EC9360B89C74CAA17492F7F48DAA7 /* Products */ = {
+		23DB22B59D5C83C2A673E840870A0C54 /* BSChatBotClientFramework */ = {
 			isa = PBXGroup;
 			children = (
-				88C1C5823C08D3AB4F67568186BE36AF /* DuChatBotFramework.framework */,
-				D21FD595D8528275245C17B4ECD9DA35 /* Pods_DuChatBotFramework_Tests.framework */,
+				9D28AD901CAEB3FC78CCCB743676C1E7 /* Frameworks */,
+				E5BAC5DA9EB1845F4D63E855218C01B7 /* Support Files */,
 			);
-			name = Products;
+			path = BSChatBotClientFramework;
+			sourceTree = "<group>";
+		};
+		39C3F0C50A724C3CADD2674EECA38181 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6B9CAB5F7DE1806F1C25643FA188A02 /* Starscream.modulemap */,
+				29AAC7D78C8B01AC22540802181AA216 /* Starscream-dummy.m */,
+				D782D1360FB2F89D166D193B2E845FAE /* Starscream-Info.plist */,
+				A1167E02D385323B4436095CD3E6234A /* Starscream-prefix.pch */,
+				4FB28CACE1DDF813CAAA593470DA6DB7 /* Starscream-umbrella.h */,
+				E624705215F133D73CBB37BCDFC6D1B2 /* Starscream.debug.xcconfig */,
+				E900C2AAE716D519F9D4BF18281B90A5 /* Starscream.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -111,34 +242,54 @@
 		7647772E8FBD787179529C03A4B9CB05 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CD1AA7183AA58396902B71048B07C7A8 /* DuChatBotFramework */,
+				E588CB9B42FFC8C343D0EF34A740B768 /* DuChatBotFramework */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		813731469CC6F5507F4786CD4CCE875C /* Pod */ = {
+		8436E0EB67B9E2966E53D74F561A2E68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C66B1DDD2D4F47C5052E0D3DA2D902A0 /* DuChatBotFramework.podspec */,
-				DFE7C81155DA5299CAEA7AE89608CAED /* LICENSE */,
-				D91FBFEFC4E537BFFC7DCCA7E57562D2 /* README.md */,
+				D21FD595D8528275245C17B4ECD9DA35 /* Pods-DuChatBotFramework_Tests */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		895FC237792C2A12D35D0CA96AC0D160 /* Support Files */ = {
+		9D28AD901CAEB3FC78CCCB743676C1E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				22D37761A49A3F078DBB44953376C6D5 /* DuChatBotFramework.modulemap */,
-				00914CC52033C910764C8AF097F95D3A /* DuChatBotFramework-dummy.m */,
-				626BF701AD48C85A8B6BFC90DA723CA2 /* DuChatBotFramework-Info.plist */,
-				5B38848127EEE876E4F7CDFEC0EA15AA /* DuChatBotFramework-prefix.pch */,
-				FF6946668AD55CA31E455DC764C27DDD /* DuChatBotFramework-umbrella.h */,
-				6ABBD8686089EDBA342B15B3D99D8337 /* DuChatBotFramework.debug.xcconfig */,
-				411DBF8C006C0D9DB17B57E6A8D16B90 /* DuChatBotFramework.release.xcconfig */,
+				0C913B8FC11A6B2DA7430F7476E3BF76 /* BSChatBotClient.xcframework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DuChatBotFramework";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A003B211DF30C58BBE3E55C3F7981BA5 /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				C432A73628123DF97FEBC8FAB658AB92 /* Compression.swift */,
+				29C2BAB1E74314F722060E1DA6417F4E /* Data+Extensions.swift */,
+				2D0FE786571E8AF740F0617069FF08B2 /* Engine.swift */,
+				65DEE2860B0691E528FA74AEC59EB5F1 /* FoundationHTTPHandler.swift */,
+				9C51E19C9FEB17726B17DB5EB052062C /* FoundationHTTPServerHandler.swift */,
+				3549FEEE9B902F598314FC455788B36A /* FoundationSecurity.swift */,
+				209CE2E01BE9992AFD6167E5F6C84D50 /* FoundationTransport.swift */,
+				B3A4460A53530A2AB5DB9996CF51D054 /* FrameCollector.swift */,
+				0DD37642F981532C2C04F7677EE95261 /* Framer.swift */,
+				D20C5989DA15268567F8C46E687D69A9 /* HTTPHandler.swift */,
+				E99AC455984C09DEBC1397F751C62637 /* NativeEngine.swift */,
+				6E5952268B7EE1AEBEA6B1C8DCA80683 /* Security.swift */,
+				414253DDE970DFBD492B0476EBB21F68 /* Server.swift */,
+				03DF539D4992DF529E623F998B28BA1F /* StringHTTPHandler.swift */,
+				2E76411948F00C83DB78B85E2BA9BC3F /* TCPTransport.swift */,
+				8C7D846AFB3BA07278F4389DDF6C8A03 /* Transport.swift */,
+				F32DFE13084AB700F0042CF0BADDC45C /* WebSocket.swift */,
+				207921C9362F195B5DE46607702D8B3F /* WebSocketServer.swift */,
+				97852546E43B5CBE85721A4E60943C4E /* WSCompression.swift */,
+				F5CD387C7DAC30A42FA2C43DFE5EAC4E /* WSEngine.swift */,
+				39C3F0C50A724C3CADD2674EECA38181 /* Support Files */,
+			);
+			path = Starscream;
 			sourceTree = "<group>";
 		};
 		AE938B7A0908604B378622BD1DB903FF /* Targets Support Files */ = {
@@ -149,24 +300,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CD1AA7183AA58396902B71048B07C7A8 /* DuChatBotFramework */ = {
-			isa = PBXGroup;
-			children = (
-				CB818B9125E55D3C003CF70F /* DuChatBot.xcframework */,
-				813731469CC6F5507F4786CD4CCE875C /* Pod */,
-				895FC237792C2A12D35D0CA96AC0D160 /* Support Files */,
-			);
-			name = DuChatBotFramework;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				7647772E8FBD787179529C03A4B9CB05 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				301EC9360B89C74CAA17492F7F48DAA7 /* Products */,
+				E02EE80FB7A279E4A03229D3F6F2AE10 /* Pods */,
+				8436E0EB67B9E2966E53D74F561A2E68 /* Products */,
 				AE938B7A0908604B378622BD1DB903FF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -179,63 +320,107 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E02EE80FB7A279E4A03229D3F6F2AE10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23DB22B59D5C83C2A673E840870A0C54 /* BSChatBotClientFramework */,
+				A003B211DF30C58BBE3E55C3F7981BA5 /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E588CB9B42FFC8C343D0EF34A740B768 /* DuChatBotFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1825687A8EC4C5CDECD0CA80B0A4CD6B /* Frameworks */,
+				116A5F1BAE0FA79CC1DA8B1C4F233421 /* Pod */,
+				F58E34DFE14BE7641C14FF5436D2432E /* Support Files */,
+			);
+			name = DuChatBotFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E5BAC5DA9EB1845F4D63E855218C01B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F1859C997B5C85A6C342A8E246CCF67 /* BSChatBotClientFramework-xcframeworks.sh */,
+				312A60DA5AEAA02A552C369D2CDCCB6A /* BSChatBotClientFramework.debug.xcconfig */,
+				09A11502119C7ACDD4A91FCFF30A9A8E /* BSChatBotClientFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BSChatBotClientFramework";
+			sourceTree = "<group>";
+		};
+		F58E34DFE14BE7641C14FF5436D2432E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				697C80E691422FA64BB2DA1C7E0132A5 /* DuChatBotFramework-xcframeworks.sh */,
+				8400D8F1AE7A889D532745CB2FC9B177 /* DuChatBotFramework.debug.xcconfig */,
+				7B202ACE5B16F0CCAB4620284D262B88 /* DuChatBotFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DuChatBotFramework";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2D8A580B82B7E1F1F537D85DF0E62F70 /* Headers */ = {
+		794B941857C8FBE351EB73A9746E7D72 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86771173311C2F213F68027A98F835A4 /* DuChatBotFramework-umbrella.h in Headers */,
+				424730E864486C18A0A96C53CB70B818 /* Pods-DuChatBotFramework_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C032B5ED21B303D80CB6506FB5880E10 /* Headers */ = {
+		A5537F378E583B29678FF40834EA5033 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E807DD0BEBFB68D6E07C6833E7AA57A /* Pods-DuChatBotFramework_Tests-umbrella.h in Headers */,
+				53FB810774874707E7C9BEA24F80A91C /* Starscream-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		58F138E1B81656CC009CC6F55F902E35 /* DuChatBotFramework */ = {
+		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7AD0CD528977E30B63AAEA7E4E45E6A /* Build configuration list for PBXNativeTarget "DuChatBotFramework" */;
+			buildConfigurationList = 0E48A449578D08D9E51CD1D70C4DA2B8 /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
-				2D8A580B82B7E1F1F537D85DF0E62F70 /* Headers */,
-				6D912DCBF0C2EEFC5FEA61DA37CE7A50 /* Sources */,
-				50E9860609E4CE44D4CF28D181B2D654 /* Frameworks */,
-				DB9BBF1ABD271A8C9D68ED03B504B8ED /* Resources */,
+				A5537F378E583B29678FF40834EA5033 /* Headers */,
+				7B081715132F0C68CFE9AC8B84D5C5D4 /* Sources */,
+				2C22695098FAB014B50474E2DBABE4EB /* Frameworks */,
+				26A7EB4C296D2080E60D37F77725E627 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DuChatBotFramework;
-			productName = DuChatBotFramework;
-			productReference = 88C1C5823C08D3AB4F67568186BE36AF /* DuChatBotFramework.framework */;
+			name = Starscream;
+			productName = Starscream;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9C76E20B746B7D3E3ED874BC53AF98D7 /* Pods-DuChatBotFramework_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 299E0A5846E239D41C3DDEC24B2BB622 /* Build configuration list for PBXNativeTarget "Pods-DuChatBotFramework_Tests" */;
+			buildConfigurationList = C131C5227B40069DE12A41F6A997947B /* Build configuration list for PBXNativeTarget "Pods-DuChatBotFramework_Tests" */;
 			buildPhases = (
-				C032B5ED21B303D80CB6506FB5880E10 /* Headers */,
-				FDB9BBA9152C43917B87A40096247770 /* Sources */,
-				E15F97FAB2B75F3802A09F6914D1C41E /* Frameworks */,
-				EE8B8BA65694D643ED290B1576FFED8C /* Resources */,
+				794B941857C8FBE351EB73A9746E7D72 /* Headers */,
+				0A8D1D1327C5035609A1E24CFE851FB0 /* Sources */,
+				FFAD7AAE4C11A6D742A81F5F4DD78269 /* Frameworks */,
+				8F5D38B81BEC5CE4EBC3277EBEF7C91B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5A62FF79F6F10583262541626746CFBA /* PBXTargetDependency */,
+				1834A387106DAF92B7D6D8905428D3EA /* PBXTargetDependency */,
+				660AE41B00D7409FBE239A197AA29070 /* PBXTargetDependency */,
+				B1775C08F6356F371CF190CD3B39E834 /* PBXTargetDependency */,
 			);
 			name = "Pods-DuChatBotFramework_Tests";
-			productName = "Pods-DuChatBotFramework_Tests";
-			productReference = D21FD595D8528275245C17B4ECD9DA35 /* Pods_DuChatBotFramework_Tests.framework */;
+			productName = Pods_DuChatBotFramework_Tests;
+			productReference = D21FD595D8528275245C17B4ECD9DA35 /* Pods-DuChatBotFramework_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -244,42 +429,39 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					58F138E1B81656CC009CC6F55F902E35 = {
-						LastSwiftMigration = 1320;
-					};
-				};
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 301EC9360B89C74CAA17492F7F48DAA7 /* Products */;
+			productRefGroup = 8436E0EB67B9E2966E53D74F561A2E68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				9F1D3425A3BBEAAEE9046FD72DA2BD34 /* BSChatBotClientFramework */,
 				58F138E1B81656CC009CC6F55F902E35 /* DuChatBotFramework */,
 				9C76E20B746B7D3E3ED874BC53AF98D7 /* Pods-DuChatBotFramework_Tests */,
+				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DB9BBF1ABD271A8C9D68ED03B504B8ED /* Resources */ = {
+		26A7EB4C296D2080E60D37F77725E627 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE8B8BA65694D643ED290B1576FFED8C /* Resources */ = {
+		8F5D38B81BEC5CE4EBC3277EBEF7C91B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,36 +470,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		604470B2C89A8F3FD1EF101AAC22D928 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/BSChatBotClientFramework/BSChatBotClientFramework-xcframeworks.sh",
+				"${PODS_ROOT}/BSChatBotClientFramework/BSChatBotClient.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/BSChatBotClientFramework/BSChatBotClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/BSChatBotClientFramework/BSChatBotClientFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		870AEFEB794B68B8B23C28D2B8C749E2 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/DuChatBotFramework/DuChatBotFramework-xcframeworks.sh",
+				"${PODS_ROOT}/../../DuChatBot.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/DuChatBotFramework/DuChatBot.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/DuChatBotFramework/DuChatBotFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6D912DCBF0C2EEFC5FEA61DA37CE7A50 /* Sources */ = {
+		0A8D1D1327C5035609A1E24CFE851FB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01FD14B2E35658A942348A78FC2DA0C0 /* DuChatBotFramework-dummy.m in Sources */,
+				EF1730BE28B552927C8683C9F8140C09 /* Pods-DuChatBotFramework_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDB9BBA9152C43917B87A40096247770 /* Sources */ = {
+		7B081715132F0C68CFE9AC8B84D5C5D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F05834C7423AB1AE49854A1A3598D7B /* Pods-DuChatBotFramework_Tests-dummy.m in Sources */,
+				659DF1F4C06812E8D63052F3E48C0551 /* Compression.swift in Sources */,
+				E877B0B17AEC973CADF057A7139FFD4F /* Data+Extensions.swift in Sources */,
+				9320C39B44C18B74F0C0413BB63005D1 /* Engine.swift in Sources */,
+				607B7285C7E1F1584D2BFB4A66722440 /* FoundationHTTPHandler.swift in Sources */,
+				27F5652856621DB9E9FE262A8307AEFB /* FoundationHTTPServerHandler.swift in Sources */,
+				B1016A9148CCDA6CC790466C3AA8E698 /* FoundationSecurity.swift in Sources */,
+				4BD4A6F729B2D4850C6E8DFDF1EFAC60 /* FoundationTransport.swift in Sources */,
+				C8BF04426AA216C5F2D4D9A12B71A810 /* FrameCollector.swift in Sources */,
+				00612EA746586C7F8A56CC5D08E2171D /* Framer.swift in Sources */,
+				2DA5DBD9AC7C708BC266D4E02BEA7BE5 /* HTTPHandler.swift in Sources */,
+				114988AA3F3329250AEAC25D1FF62ADB /* NativeEngine.swift in Sources */,
+				127447C9E54FFABE45C8C7CBD05B0162 /* Security.swift in Sources */,
+				FA45389C6CE597A60231902FF24A61A9 /* Server.swift in Sources */,
+				0D39BA2322A493870BF4F13663993285 /* Starscream-dummy.m in Sources */,
+				8A73A7B4BB95AED66EBFCA92A6FF4316 /* StringHTTPHandler.swift in Sources */,
+				B29DD943BF54474468C72CCF5009BD4E /* TCPTransport.swift in Sources */,
+				0E13399581FC0281D142BB362365C046 /* Transport.swift in Sources */,
+				683ED1FE990812E43E739218AB6FE2C0 /* WebSocket.swift in Sources */,
+				C0A9FEBBBF24CFEA2CAF8A95B0D99E38 /* WebSocketServer.swift in Sources */,
+				78A08CAE8C6E730E23262E16A2722800 /* WSCompression.swift in Sources */,
+				6B1DF7EBD297AA759FCCDE61E122D058 /* WSEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5A62FF79F6F10583262541626746CFBA /* PBXTargetDependency */ = {
+		1834A387106DAF92B7D6D8905428D3EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSChatBotClientFramework;
+			target = 9F1D3425A3BBEAAEE9046FD72DA2BD34 /* BSChatBotClientFramework */;
+			targetProxy = BCAE6CDD8189FC3B2CA37554746EE118 /* PBXContainerItemProxy */;
+		};
+		33F51F0D2F4FA630E697A0687A6B9C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSChatBotClientFramework;
+			target = 9F1D3425A3BBEAAEE9046FD72DA2BD34 /* BSChatBotClientFramework */;
+			targetProxy = 50CBEBF6CA2F773D5179FD3EEDB9C26B /* PBXContainerItemProxy */;
+		};
+		660AE41B00D7409FBE239A197AA29070 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DuChatBotFramework;
 			target = 58F138E1B81656CC009CC6F55F902E35 /* DuChatBotFramework */;
-			targetProxy = 1E88EB803BE43756699DC27C8DA99819 /* PBXContainerItemProxy */;
+			targetProxy = 71077AEB740AC804D02E5EEFF52CAAB7 /* PBXContainerItemProxy */;
+		};
+		6EDEF279D07B87AC8F1FF2AF0C269C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 065DD518B019CDA2EA28FD9663883E76 /* PBXContainerItemProxy */;
+		};
+		B1775C08F6356F371CF190CD3B39E834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = F5BBBB267D0B30590FAC5ED2DC74B493 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+		0C5C95932FFA5D31426669B189138151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E624705215F133D73CBB37BCDFC6D1B2 /* Starscream.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A369875D60434FC63C638B7BAE777A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8400D8F1AE7A889D532745CB2FC9B177 /* DuChatBotFramework.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,23 +678,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		51253155E2F6FB3AD7EF811FA6CF7045 /* Release */ = {
+		AE622328D5A220419D7D349B5873E200 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2056FF75FA14E8296D51AB718A051E32 /* Pods-DuChatBotFramework_Tests.release.xcconfig */;
+			baseConfigurationReference = E900C2AAE716D519F9D4BF18281B90A5 /* Starscream.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -392,23 +702,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DuChatBotFramework_Tests/Pods-DuChatBotFramework_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DuChatBotFramework_Tests/Pods-DuChatBotFramework_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -416,43 +721,7 @@
 			};
 			name = Release;
 		};
-		67AB3B94328902DF386A52555AD9AFCB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0346C9E8A155A0E9C7DA07086F46F237 /* Pods-DuChatBotFramework_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DuChatBotFramework_Tests/Pods-DuChatBotFramework_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DuChatBotFramework_Tests/Pods-DuChatBotFramework_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -505,7 +774,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -518,12 +787,45 @@
 			};
 			name = Debug;
 		};
-		92456CBEC422860378518B53710FFA0B /* Release */ = {
+		C3660EE84F28EF0861888FE05CABD68E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 411DBF8C006C0D9DB17B57E6A8D16B90 /* DuChatBotFramework.release.xcconfig */;
+			baseConfigurationReference = 7B202ACE5B16F0CCAB4620284D262B88 /* DuChatBotFramework.release.xcconfig */;
 			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_MODULES = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7DD0A8D5325F9096F9A24DF525DF974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A11502119C7ACDD4A91FCFF30A9A8E /* BSChatBotClientFramework.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF6C2A6DA1277E9D48871B3AC74FE4B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2056FF75FA14E8296D51AB718A051E32 /* Pods-DuChatBotFramework_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -532,22 +834,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DuChatBotFramework/DuChatBotFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DuChatBotFramework/DuChatBotFramework-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DuChatBotFramework_Tests/Pods-DuChatBotFramework_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DuChatBotFramework/DuChatBotFramework.modulemap";
-				PRODUCT_MODULE_NAME = DuChatBotFramework;
-				PRODUCT_NAME = DuChatBotFramework;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DuChatBotFramework_Tests/Pods-DuChatBotFramework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -555,12 +854,13 @@
 			};
 			name = Release;
 		};
-		CD9DECA558DA60AADD099D7696FA6B78 /* Debug */ = {
+		F3A152AEC4BC62BDE9C503453F071466 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ABBD8686089EDBA342B15B3D99D8337 /* DuChatBotFramework.debug.xcconfig */;
+			baseConfigurationReference = 0346C9E8A155A0E9C7DA07086F46F237 /* Pods-DuChatBotFramework_Tests.debug.xcconfig */;
 			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -569,37 +869,57 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DuChatBotFramework/DuChatBotFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DuChatBotFramework/DuChatBotFramework-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DuChatBotFramework_Tests/Pods-DuChatBotFramework_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DuChatBotFramework/DuChatBotFramework.modulemap";
-				PRODUCT_MODULE_NAME = DuChatBotFramework;
-				PRODUCT_NAME = DuChatBotFramework;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DuChatBotFramework_Tests/Pods-DuChatBotFramework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		F4CE93F72D5D4DE2CF201AA55726C017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312A60DA5AEAA02A552C369D2CDCCB6A /* BSChatBotClientFramework.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		299E0A5846E239D41C3DDEC24B2BB622 /* Build configuration list for PBXNativeTarget "Pods-DuChatBotFramework_Tests" */ = {
+		0B12E888DEBD144387CC7D68797310AF /* Build configuration list for PBXAggregateTarget "BSChatBotClientFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67AB3B94328902DF386A52555AD9AFCB /* Debug */,
-				51253155E2F6FB3AD7EF811FA6CF7045 /* Release */,
+				F4CE93F72D5D4DE2CF201AA55726C017 /* Debug */,
+				D7DD0A8D5325F9096F9A24DF525DF974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E48A449578D08D9E51CD1D70C4DA2B8 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5C95932FFA5D31426669B189138151 /* Debug */,
+				AE622328D5A220419D7D349B5873E200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -607,17 +927,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79759604D78320E712558F49DF19AA9F /* Debug */,
-				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7AD0CD528977E30B63AAEA7E4E45E6A /* Build configuration list for PBXNativeTarget "DuChatBotFramework" */ = {
+		B432E5D95A1CDFB1D8AF5D8A6B2BF8D1 /* Build configuration list for PBXAggregateTarget "DuChatBotFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD9DECA558DA60AADD099D7696FA6B78 /* Debug */,
-				92456CBEC422860378518B53710FFA0B /* Release */,
+				6A369875D60434FC63C638B7BAE777A8 /* Debug */,
+				C3660EE84F28EF0861888FE05CABD68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C131C5227B40069DE12A41F6A997947B /* Build configuration list for PBXNativeTarget "Pods-DuChatBotFramework_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A152AEC4BC62BDE9C503453F071466 /* Debug */,
+				EF6C2A6DA1277E9D48871B3AC74FE4B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

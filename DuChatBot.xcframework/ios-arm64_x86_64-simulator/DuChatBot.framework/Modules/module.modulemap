@@ -1,0 +1,11 @@
+framework module DuChatBot {
+  umbrella header "DuChatBot.h"
+
+  export *
+  module * { export * }
+}
+
+module DuChatBot.Swift {
+  header "DuChatBot-Swift.h"
+  requires objc
+}

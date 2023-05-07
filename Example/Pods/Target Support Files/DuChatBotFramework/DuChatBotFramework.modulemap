@@ -1,6 +1,0 @@
-framework module DuChatBotFramework {
-  umbrella header "DuChatBotFramework-umbrella.h"
-
-  export *
-  module * { export * }
-}

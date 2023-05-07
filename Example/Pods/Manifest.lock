@@ -1,16 +1,27 @@
 PODS:
-  - DuChatBotFramework (0.1.0)
+  - BSChatBotClientFramework (2.0.6):
+    - Starscream (= 4.0.4)
+  - DuChatBotFramework (2.2.1):
+    - BSChatBotClientFramework (= 2.0.6)
+  - Starscream (4.0.4)
 
 DEPENDENCIES:
   - DuChatBotFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - BSChatBotClientFramework
+    - Starscream
 
 EXTERNAL SOURCES:
   DuChatBotFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DuChatBotFramework: 105095a68bcd128457063ffe9f27ad194cf144e4
+  BSChatBotClientFramework: 14643c1a1f68ab56e12e2cb97e5c6f3ba18d5dfd
+  DuChatBotFramework: 31041c9666cd6182a4bfadc29c38220ddb0de90c
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
 
 PODFILE CHECKSUM: 8809b5df31062e3d748c400aaab7bdecb85d5dec
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.3
