@@ -13,6 +13,7 @@ public struct DuTextParseResult {
   public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
   public let watermark: Swift.Int?
   public let locale: DuChatBot.DuChatBotLocale
+  public let parsedID: Swift.String
 }
 public struct DuChatBotTroubleTicket {
   public let number: Swift.String
@@ -195,6 +196,7 @@ public struct DuButtonsParseResult {
   public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
   public let watermark: Swift.Int?
   public let locale: DuChatBot.DuChatBotLocale
+  public let parsedID: Swift.String
 }
 public enum DuChatBotConfigurator {
   public enum DuChatBotEnvironment {
@@ -235,6 +237,7 @@ public struct DuConfirmVASUnsubscriptionParseResult {
   public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
   public let watermark: Swift.Int?
   public let locale: DuChatBot.DuChatBotLocale
+  public let parsedID: Swift.String
 }
 public struct DuChatBotOrder {
   public let number: Swift.String
@@ -260,6 +263,7 @@ public struct DuObjectParseResult<T> {
   public let suggestedActions: [DuChatBot.DuChatBotSuggestedAction]
   public let watermark: Swift.Int?
   public let locale: DuChatBot.DuChatBotLocale
+  public let parsedID: Swift.String
 }
 public struct DuChatBotPaymentHistory {
   public let date: Swift.String
