@@ -5812,6 +5812,331 @@
             "usr": "s:9DuChatBot0abC11ParseResultO18purchaseAddOnsLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
             "mangledName": "$s9DuChatBot0abC11ParseResultO18purchaseAddOnsLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
             "moduleName": "DuChatBot"
+          },
+          {
+            "kind": "Var",
+            "name": "renewContractLink",
+            "printedName": "renewContractLink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DuChatBot.DuChatBotParseResult.Type) -> (DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>) -> DuChatBot.DuChatBotParseResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>) -> DuChatBot.DuChatBotParseResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DuChatBotParseResult",
+                        "printedName": "DuChatBot.DuChatBotParseResult",
+                        "usr": "s:9DuChatBot0abC11ParseResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DuObjectParseResult",
+                            "printedName": "DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "DuChatBotAccountDetails",
+                                "printedName": "DuChatBot.DuChatBotAccountDetails",
+                                "usr": "s:9DuChatBot0abC14AccountDetailsV"
+                              }
+                            ],
+                            "usr": "s:9DuChatBot0A17ObjectParseResultV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DuChatBot.DuChatBotParseResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DuChatBotParseResult",
+                        "printedName": "DuChatBot.DuChatBotParseResult",
+                        "usr": "s:9DuChatBot0abC11ParseResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DuChatBot0abC11ParseResultO17renewContractLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
+            "mangledName": "$s9DuChatBot0abC11ParseResultO17renewContractLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
+            "moduleName": "DuChatBot"
+          },
+          {
+            "kind": "Var",
+            "name": "paymentHistoryLink",
+            "printedName": "paymentHistoryLink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DuChatBot.DuChatBotParseResult.Type) -> (DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>) -> DuChatBot.DuChatBotParseResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>) -> DuChatBot.DuChatBotParseResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DuChatBotParseResult",
+                        "printedName": "DuChatBot.DuChatBotParseResult",
+                        "usr": "s:9DuChatBot0abC11ParseResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DuObjectParseResult",
+                            "printedName": "DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "DuChatBotAccountDetails",
+                                "printedName": "DuChatBot.DuChatBotAccountDetails",
+                                "usr": "s:9DuChatBot0abC14AccountDetailsV"
+                              }
+                            ],
+                            "usr": "s:9DuChatBot0A17ObjectParseResultV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DuChatBot.DuChatBotParseResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DuChatBotParseResult",
+                        "printedName": "DuChatBot.DuChatBotParseResult",
+                        "usr": "s:9DuChatBot0abC11ParseResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DuChatBot0abC11ParseResultO18paymentHistoryLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
+            "mangledName": "$s9DuChatBot0abC11ParseResultO18paymentHistoryLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
+            "moduleName": "DuChatBot"
+          },
+          {
+            "kind": "Var",
+            "name": "vasUnsubscriptionLink",
+            "printedName": "vasUnsubscriptionLink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DuChatBot.DuChatBotParseResult.Type) -> (DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>) -> DuChatBot.DuChatBotParseResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>) -> DuChatBot.DuChatBotParseResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DuChatBotParseResult",
+                        "printedName": "DuChatBot.DuChatBotParseResult",
+                        "usr": "s:9DuChatBot0abC11ParseResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DuObjectParseResult",
+                            "printedName": "DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "DuChatBotAccountDetails",
+                                "printedName": "DuChatBot.DuChatBotAccountDetails",
+                                "usr": "s:9DuChatBot0abC14AccountDetailsV"
+                              }
+                            ],
+                            "usr": "s:9DuChatBot0A17ObjectParseResultV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DuChatBot.DuChatBotParseResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DuChatBotParseResult",
+                        "printedName": "DuChatBot.DuChatBotParseResult",
+                        "usr": "s:9DuChatBot0abC11ParseResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DuChatBot0abC11ParseResultO21vasUnsubscriptionLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
+            "mangledName": "$s9DuChatBot0abC11ParseResultO21vasUnsubscriptionLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
+            "moduleName": "DuChatBot"
+          },
+          {
+            "kind": "Var",
+            "name": "upgradePlanLink",
+            "printedName": "upgradePlanLink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DuChatBot.DuChatBotParseResult.Type) -> (DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>) -> DuChatBot.DuChatBotParseResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>) -> DuChatBot.DuChatBotParseResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DuChatBotParseResult",
+                        "printedName": "DuChatBot.DuChatBotParseResult",
+                        "usr": "s:9DuChatBot0abC11ParseResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DuObjectParseResult",
+                            "printedName": "DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "DuChatBotAccountDetails",
+                                "printedName": "DuChatBot.DuChatBotAccountDetails",
+                                "usr": "s:9DuChatBot0abC14AccountDetailsV"
+                              }
+                            ],
+                            "usr": "s:9DuChatBot0A17ObjectParseResultV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DuChatBot.DuChatBotParseResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DuChatBotParseResult",
+                        "printedName": "DuChatBot.DuChatBotParseResult",
+                        "usr": "s:9DuChatBot0abC11ParseResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DuChatBot0abC11ParseResultO15upgradePlanLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
+            "mangledName": "$s9DuChatBot0abC11ParseResultO15upgradePlanLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
+            "moduleName": "DuChatBot"
+          },
+          {
+            "kind": "Var",
+            "name": "purchaseAddOnsManageDataLink",
+            "printedName": "purchaseAddOnsManageDataLink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DuChatBot.DuChatBotParseResult.Type) -> (DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>) -> DuChatBot.DuChatBotParseResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>) -> DuChatBot.DuChatBotParseResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DuChatBotParseResult",
+                        "printedName": "DuChatBot.DuChatBotParseResult",
+                        "usr": "s:9DuChatBot0abC11ParseResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DuObjectParseResult",
+                            "printedName": "DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "DuChatBotAccountDetails",
+                                "printedName": "DuChatBot.DuChatBotAccountDetails",
+                                "usr": "s:9DuChatBot0abC14AccountDetailsV"
+                              }
+                            ],
+                            "usr": "s:9DuChatBot0A17ObjectParseResultV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DuChatBot.DuChatBotParseResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DuChatBotParseResult",
+                        "printedName": "DuChatBot.DuChatBotParseResult",
+                        "usr": "s:9DuChatBot0abC11ParseResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DuChatBot0abC11ParseResultO28purchaseAddOnsManageDataLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
+            "mangledName": "$s9DuChatBot0abC11ParseResultO28purchaseAddOnsManageDataLinkyAcA0a6ObjectdE0VyAA0abC14AccountDetailsVG_tcACmF",
+            "moduleName": "DuChatBot"
           }
         ],
         "declKind": "Enum",
@@ -6607,6 +6932,116 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DuChatBot.AccountCustomerType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccountCustomerType",
+                    "printedName": "DuChatBot.AccountCustomerType",
+                    "usr": "s:9DuChatBot19AccountCustomerTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvp",
+            "mangledName": "$s9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvp",
+            "moduleName": "DuChatBot",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DuChatBot.AccountCustomerType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccountCustomerType",
+                        "printedName": "DuChatBot.AccountCustomerType",
+                        "usr": "s:9DuChatBot19AccountCustomerTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvg",
+                "mangledName": "$s9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvg",
+                "moduleName": "DuChatBot",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DuChatBot.AccountCustomerType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccountCustomerType",
+                        "printedName": "DuChatBot.AccountCustomerType",
+                        "usr": "s:9DuChatBot19AccountCustomerTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvs",
+                "mangledName": "$s9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvs",
+                "moduleName": "DuChatBot",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvM",
+                "mangledName": "$s9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvM",
+                "moduleName": "DuChatBot",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -6666,6 +7101,256 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AccountCustomerType",
+        "printedName": "AccountCustomerType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "None",
+            "printedName": "None",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DuChatBot.AccountCustomerType.Type) -> DuChatBot.AccountCustomerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccountCustomerType",
+                    "printedName": "DuChatBot.AccountCustomerType",
+                    "usr": "s:9DuChatBot19AccountCustomerTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DuChatBot.AccountCustomerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccountCustomerType",
+                        "printedName": "DuChatBot.AccountCustomerType",
+                        "usr": "s:9DuChatBot19AccountCustomerTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DuChatBot19AccountCustomerTypeO4NoneyA2CmF",
+            "mangledName": "$s9DuChatBot19AccountCustomerTypeO4NoneyA2CmF",
+            "moduleName": "DuChatBot"
+          },
+          {
+            "kind": "Var",
+            "name": "Ignite",
+            "printedName": "Ignite",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DuChatBot.AccountCustomerType.Type) -> DuChatBot.AccountCustomerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccountCustomerType",
+                    "printedName": "DuChatBot.AccountCustomerType",
+                    "usr": "s:9DuChatBot19AccountCustomerTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DuChatBot.AccountCustomerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccountCustomerType",
+                        "printedName": "DuChatBot.AccountCustomerType",
+                        "usr": "s:9DuChatBot19AccountCustomerTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DuChatBot19AccountCustomerTypeO6IgniteyA2CmF",
+            "mangledName": "$s9DuChatBot19AccountCustomerTypeO6IgniteyA2CmF",
+            "moduleName": "DuChatBot"
+          },
+          {
+            "kind": "Var",
+            "name": "BAU",
+            "printedName": "BAU",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DuChatBot.AccountCustomerType.Type) -> DuChatBot.AccountCustomerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccountCustomerType",
+                    "printedName": "DuChatBot.AccountCustomerType",
+                    "usr": "s:9DuChatBot19AccountCustomerTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DuChatBot.AccountCustomerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccountCustomerType",
+                        "printedName": "DuChatBot.AccountCustomerType",
+                        "usr": "s:9DuChatBot19AccountCustomerTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DuChatBot19AccountCustomerTypeO3BAUyA2CmF",
+            "mangledName": "$s9DuChatBot19AccountCustomerTypeO3BAUyA2CmF",
+            "moduleName": "DuChatBot"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DuChatBot.AccountCustomerType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccountCustomerType",
+                    "printedName": "DuChatBot.AccountCustomerType",
+                    "usr": "s:9DuChatBot19AccountCustomerTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9DuChatBot19AccountCustomerTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s9DuChatBot19AccountCustomerTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "DuChatBot",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DuChatBot19AccountCustomerTypeO8rawValueSSvp",
+            "mangledName": "$s9DuChatBot19AccountCustomerTypeO8rawValueSSvp",
+            "moduleName": "DuChatBot",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DuChatBot19AccountCustomerTypeO8rawValueSSvg",
+                "mangledName": "$s9DuChatBot19AccountCustomerTypeO8rawValueSSvg",
+                "moduleName": "DuChatBot",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9DuChatBot19AccountCustomerTypeO",
+        "mangledName": "$s9DuChatBot19AccountCustomerTypeO",
+        "moduleName": "DuChatBot",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -8510,6 +9195,43 @@
                 "declKind": "EnumElement",
                 "usr": "s:9DuChatBot0abC12ConfiguratorO0abC11EnvironmentO10productionyA2EmF",
                 "mangledName": "$s9DuChatBot0abC12ConfiguratorO0abC11EnvironmentO10productionyA2EmF",
+                "moduleName": "DuChatBot"
+              },
+              {
+                "kind": "Var",
+                "name": "tqcIgnite",
+                "printedName": "tqcIgnite",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment.Type) -> DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DuChatBotEnvironment",
+                        "printedName": "DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment",
+                        "usr": "s:9DuChatBot0abC12ConfiguratorO0abC11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DuChatBotEnvironment",
+                            "printedName": "DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment",
+                            "usr": "s:9DuChatBot0abC12ConfiguratorO0abC11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9DuChatBot0abC12ConfiguratorO0abC11EnvironmentO9tqcIgniteyA2EmF",
+                "mangledName": "$s9DuChatBot0abC12ConfiguratorO0abC11EnvironmentO9tqcIgniteyA2EmF",
                 "moduleName": "DuChatBot"
               },
               {
@@ -11143,6 +11865,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ArrayProtocol",
             "printedName": "_ArrayProtocol",
             "children": [
@@ -11599,13 +12328,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -11776,1061 +12498,53 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountsParser.swift",
+      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 284,
-      "length": 13,
-      "value": "\"attachments\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 402,
-      "length": 28,
-      "value": "\"Unable to find attachemnts\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 510,
-      "length": 9,
-      "value": "\"content\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 573,
-      "length": 6,
-      "value": "\"body\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 670,
-      "length": 9,
-      "value": "\"choices\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountsParser.swift",
-      "kind": "Array",
-      "offset": 735,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 864,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 898,
-      "length": 14,
-      "value": "\"customerCode\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 923,
-      "length": 7,
-      "value": "\"value\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 951,
-      "length": 7,
-      "value": "\"value\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuBodyParser.swift",
-      "kind": "StringLiteral",
-      "offset": 392,
-      "length": 13,
-      "value": "\"attachments\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuBodyParser.swift",
-      "kind": "StringLiteral",
-      "offset": 510,
-      "length": 28,
-      "value": "\"Unable to find attachemnts\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuBodyParser.swift",
-      "kind": "StringLiteral",
-      "offset": 597,
-      "length": 8,
-      "value": "\"locale\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuBodyParser.swift",
-      "kind": "StringLiteral",
-      "offset": 701,
-      "length": 23,
-      "value": "\"Unable to find locale\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuBodyParser.swift",
-      "kind": "StringLiteral",
-      "offset": 947,
-      "length": 9,
-      "value": "\"content\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuBodyParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1014,
-      "length": 6,
-      "value": "\"body\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuBodyParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1141,
-      "length": 31,
-      "value": "\"Unable to find content \/ body\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuBodyParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1464,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuTroubleTicketParser.swift",
-      "kind": "StringLiteral",
-      "offset": 301,
-      "length": 13,
-      "value": "\"attachments\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuTroubleTicketParser.swift",
-      "kind": "StringLiteral",
-      "offset": 419,
-      "length": 28,
-      "value": "\"Unable to find attachemnts\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuTroubleTicketParser.swift",
-      "kind": "StringLiteral",
-      "offset": 506,
-      "length": 8,
-      "value": "\"locale\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuTroubleTicketParser.swift",
-      "kind": "StringLiteral",
-      "offset": 610,
-      "length": 23,
-      "value": "\"Unable to find locale\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuTroubleTicketParser.swift",
-      "kind": "StringLiteral",
-      "offset": 856,
-      "length": 9,
-      "value": "\"content\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuTroubleTicketParser.swift",
-      "kind": "StringLiteral",
-      "offset": 923,
-      "length": 6,
-      "value": "\"body\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuTroubleTicketParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1050,
-      "length": 31,
-      "value": "\"Unable to find content \/ body\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuTroubleTicketParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1373,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 480,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 556,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 631,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 707,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 775,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "StringLiteral",
-      "offset": 851,
-      "length": 11,
-      "value": "\"\\d+-\\d+\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "StringLiteral",
-      "offset": 986,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1032,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1146,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1167,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "StringLiteral",
-      "offset": 1189,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "StringLiteral",
-      "offset": 1678,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1699,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicket.swift",
-      "kind": "StringLiteral",
-      "offset": 1705,
+      "offset": 476,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuPackageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 285,
-      "length": 13,
-      "value": "\"attachments\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuPackageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 403,
-      "length": 28,
-      "value": "\"Unable to find attachemnts\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuPackageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 511,
-      "length": 9,
-      "value": "\"content\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuPackageParser.swift",
+      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
       "offset": 574,
-      "length": 6,
-      "value": "\"body\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuPackageParser.swift",
-      "kind": "StringLiteral",
-      "offset": 671,
-      "length": 9,
-      "value": "\"choices\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuPackageParser.swift",
-      "kind": "Array",
-      "offset": 736,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotLocale.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 4,
-      "value": "\"ar\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotIdStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 295,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotIdStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 388,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Extensions\/ArrayExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 214,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotConfirmVASUnsubscription.swift",
-      "kind": "IntegerLiteral",
-      "offset": 361,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotConfirmVASUnsubscription.swift",
-      "kind": "IntegerLiteral",
-      "offset": 399,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotConfirmVASUnsubscription.swift",
-      "kind": "StringLiteral",
-      "offset": 457,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotConfirmVASUnsubscription.swift",
-      "kind": "IntegerLiteral",
-      "offset": 473,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotConfirmVASUnsubscription.swift",
-      "kind": "StringLiteral",
-      "offset": 538,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotConfirmVASUnsubscription.swift",
-      "kind": "IntegerLiteral",
-      "offset": 554,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotConfirmVASUnsubscription.swift",
-      "kind": "IntegerLiteral",
-      "offset": 608,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotConfirmVASUnsubscription.swift",
-      "kind": "IntegerLiteral",
-      "offset": 636,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotConfirmVASUnsubscription.swift",
-      "kind": "IntegerLiteral",
-      "offset": 698,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotConfirmVASUnsubscription.swift",
-      "kind": "IntegerLiteral",
-      "offset": 742,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuTextParser.swift",
-      "kind": "StringLiteral",
-      "offset": 249,
-      "length": 6,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuTextParser.swift",
-      "kind": "StringLiteral",
-      "offset": 351,
-      "length": 21,
-      "value": "\"Unable to find text\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuButtonsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 283,
-      "length": 13,
-      "value": "\"attachments\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuButtonsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 401,
-      "length": 28,
-      "value": "\"Unable to find attachemnts\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuButtonsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 568,
-      "length": 57,
-      "value": "\"Attachments array is empty, expected at least 1 element\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuButtonsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 790,
-      "length": 9,
-      "value": "\"content\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuButtonsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 906,
-      "length": 24,
-      "value": "\"Unable to find content\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuButtonsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 999,
-      "length": 9,
-      "value": "\"actions\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuButtonsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1117,
-      "length": 24,
-      "value": "\"Unable to find actions\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuButtonsParser.swift",
-      "kind": "Array",
-      "offset": 1274,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuButtonsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1365,
-      "length": 35,
-      "value": "\"Unable to serialize actions array\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuVASParser.swift",
-      "kind": "StringLiteral",
-      "offset": 544,
-      "length": 52,
-      "value": "\"VAS count \""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuVASParser.swift",
-      "kind": "StringLiteral",
-      "offset": 567,
-      "length": 3,
-      "value": "\" isn't equal to \""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuVASParser.swift",
+      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
       "offset": 595,
-      "length": 2,
-      "value": "\"\""
+      "length": 8,
+      "value": "\"Ignite\""
     },
     {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuVASParser.swift",
+      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 654,
-      "length": 13,
-      "value": "\"attachments\""
+      "offset": 619,
+      "length": 5,
+      "value": "\"BAU\""
     },
     {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuVASParser.swift",
-      "kind": "StringLiteral",
-      "offset": 772,
-      "length": 28,
-      "value": "\"Unable to find attachemnts\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuVASParser.swift",
-      "kind": "StringLiteral",
-      "offset": 920,
-      "length": 9,
-      "value": "\"content\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuVASParser.swift",
-      "kind": "StringLiteral",
-      "offset": 987,
-      "length": 6,
-      "value": "\"body\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuVASParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1116,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuVASParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1198,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuVASParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1214,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuVASParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1420,
-      "length": 17,
-      "value": "\"Unable to price\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuChoicesParser.swift",
-      "kind": "StringLiteral",
-      "offset": 287,
-      "length": 13,
-      "value": "\"attachments\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuChoicesParser.swift",
-      "kind": "StringLiteral",
-      "offset": 405,
-      "length": 28,
-      "value": "\"Unable to find attachemnts\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuChoicesParser.swift",
-      "kind": "StringLiteral",
-      "offset": 513,
-      "length": 9,
-      "value": "\"content\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuChoicesParser.swift",
-      "kind": "StringLiteral",
-      "offset": 576,
-      "length": 6,
-      "value": "\"body\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuChoicesParser.swift",
-      "kind": "StringLiteral",
-      "offset": 673,
-      "length": 9,
-      "value": "\"choices\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuChoicesParser.swift",
-      "kind": "Array",
-      "offset": 738,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountDetailsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 288,
-      "length": 7,
-      "value": "\"value\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountDetailsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 398,
-      "length": 22,
-      "value": "\"Unable to find value\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountDetailsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 482,
-      "length": 16,
-      "value": "\"AccountDetails\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountDetailsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 601,
-      "length": 31,
-      "value": "\"Unable to find AccountDetails\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountDetailsParser.swift",
-      "kind": "Array",
-      "offset": 767,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuAccountDetailsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 854,
-      "length": 37,
-      "value": "\"Unable to serialize account details\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 400,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 436,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "StringLiteral",
-      "offset": 494,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 510,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "StringLiteral",
-      "offset": 571,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 587,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 641,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 669,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 727,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "IntegerLiteral",
-      "offset": 767,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "StringLiteral",
-      "offset": 798,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotVAS.swift",
-      "kind": "FloatLiteral",
-      "offset": 990,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuSuggestedActionsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 310,
-      "length": 18,
-      "value": "\"suggestedActions\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuSuggestedActionsParser.swift",
-      "kind": "Array",
-      "offset": 374,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuSuggestedActionsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 447,
-      "length": 9,
-      "value": "\"actions\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuSuggestedActionsParser.swift",
-      "kind": "Array",
-      "offset": 504,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuSuggestedActionsParser.swift",
-      "kind": "Array",
-      "offset": 626,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuSuggestedActionsParser.swift",
-      "kind": "Array",
-      "offset": 656,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuSuggestedActionsParser.swift",
-      "kind": "Array",
-      "offset": 825,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 289,
-      "length": 13,
-      "value": "\"attachments\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 407,
-      "length": 28,
-      "value": "\"Unable to find attachments\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "Array",
-      "offset": 501,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 596,
-      "length": 9,
-      "value": "\"content\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 712,
-      "length": 24,
-      "value": "\"Unable to find content\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 804,
-      "length": 6,
-      "value": "\"body\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 919,
-      "length": 23,
-      "value": "\"Unable to find bodies\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1005,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1094,
-      "length": 66,
-      "value": "\"Bodies array has \""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1127,
-      "length": 1,
-      "value": "\", expected at least two elements\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1229,
-      "length": 9,
-      "value": "\"actions\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1347,
-      "length": 24,
-      "value": "\"Unable to find actions\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1532,
-      "length": 55,
-      "value": "\"Actions array is empty, expected at least one element\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1652,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1765,
-      "length": 21,
-      "value": "\"Unable to find data\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1852,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1958,
-      "length": 28,
-      "value": "\"Unable to find contract id\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2051,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 2054,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 2158,
-      "length": 19,
-      "value": "\"Unable to find id\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2281,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2362,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2447,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 2697,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuContractsParser.swift",
-      "kind": "StringLiteral",
-      "offset": 3018,
-      "length": 7,
-      "value": "\"fixed\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
-      "kind": "StringLiteral",
-      "offset": 285,
-      "length": 13,
-      "value": "\"attachments\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
-      "kind": "StringLiteral",
-      "offset": 395,
-      "length": 28,
-      "value": "\"Unable to find attachemnts\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
-      "kind": "Array",
-      "offset": 479,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
+      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
       "offset": 574,
-      "length": 9,
-      "value": "\"content\""
+      "length": 2,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
+      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 690,
-      "length": 24,
-      "value": "\"Unable to find content\""
+      "offset": 595,
+      "length": 8,
+      "value": "\"Ignite\""
     },
     {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
+      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 782,
-      "length": 6,
-      "value": "\"body\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
-      "kind": "StringLiteral",
-      "offset": 897,
-      "length": 23,
-      "value": "\"Unable to find bodies\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1044,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1047,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1151,
-      "length": 19,
-      "value": "\"Unable to find id\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1235,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1238,
-      "length": 6,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Parsers\/DuDecoderParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1344,
-      "length": 21,
-      "value": "\"Unable to find text\""
+      "offset": 619,
+      "length": 5,
+      "value": "\"BAU\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
@@ -12847,867 +12561,6 @@
       "value": "[\"Menu\", \"MyAccountMenu\", \"BalanceMenu\", \"InternetIssue_BroadbandTroubleshooting\", \"ResolvedIssue\", \"ActiveFixedResolvedIssue\", \"BillHigh\", \"BillIsHighOptions\", \"ContractIssue_Troubleshooting\", \"AddNoteConfirmation\", \"ConnectToAgentConfirmation\", \"DeactivateNumberConfirmation\", \"ResolvedIssueNo\", \"ActiveContractStatus\", \"NotProceedRewewal\", \"OtherReasonIssue\", \"InActiveContractStatusOther\"]"
     },
     {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 1654,
-      "length": 11,
-      "value": "\"Parsing: \""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 1850,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 1861,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 2058,
-      "length": 8,
-      "value": "\"locale\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 2171,
-      "length": 4,
-      "value": "\"en\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 2378,
-      "length": 11,
-      "value": "\"ID: \""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 2388,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 2990,
-      "length": 9,
-      "value": "\"Watson_\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 3701,
-      "length": 21,
-      "value": "\"MultiAccountsToLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 4165,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 4454,
-      "length": 12,
-      "value": "\"MultiPlans\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 4848,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 5137,
-      "length": 17,
-      "value": "\"RechargePayment\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 5859,
-      "length": 17,
-      "value": "\"PaymentsHistory\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 6293,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 6582,
-      "length": 12,
-      "value": "\"RateChoice\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 7165,
-      "length": 19,
-      "value": "\"ConfirmationYesNo\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 7893,
-      "length": 15,
-      "value": "\"InputFeedback\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 8488,
-      "length": 9,
-      "value": "\"PayBill\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 9201,
-      "length": 16,
-      "value": "\"ForgotIdStatus\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 9908,
-      "length": 7,
-      "value": "\"Login\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 10617,
-      "length": 19,
-      "value": "\"ResetLoginDetails\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 11351,
-      "length": 10,
-      "value": "\"handover\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 12066,
-      "length": 18,
-      "value": "\"LastTransactions\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 12505,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 12794,
-      "length": 13,
-      "value": "\"OrderStatus\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 13191,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 13480,
-      "length": 20,
-      "value": "\"VasUnsubscriptions\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 13858,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 14147,
-      "length": 26,
-      "value": "\"ConfirmVasUnsubscription\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 15261,
-      "length": 44,
-      "value": "\"Unable to parse confirm vas unsubscription\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 15420,
-      "length": 11,
-      "value": "\"Agreement\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 16165,
-      "length": 19,
-      "value": "\"AnonymousUserForm\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 16892,
-      "length": 10,
-      "value": "\"IdStatus\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 17294,
-      "length": 44,
-      "value": "\"Unable to parse confirm vas unsubscription\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 17756,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 18045,
-      "length": 19,
-      "value": "\"MyConsumptionLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 18909,
-      "length": 24,
-      "value": "\"CheckingActiveInactive\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 19515,
-      "length": 41,
-      "value": "\"mobile_ContractIsInactivePendingPayment\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 19566,
-      "length": 40,
-      "value": "\"Fixed_ContractIsInactivePendingPayment\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 20333,
-      "length": 35,
-      "value": "\"Mobile_ContractIsInactiveIDExpiry\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 20378,
-      "length": 34,
-      "value": "\"Fixed_ContractIsInactiveIDExpiry\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 21268,
-      "length": 52,
-      "value": "\"mobile_ContractIsInactivePendingPaymentAndIdExpiry\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 21330,
-      "length": 51,
-      "value": "\"Fixed_ContractIsInactivePendingPaymentAndIdExpiry\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 22116,
-      "length": 25,
-      "value": "\"mobile_ContractIsActive\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 22728,
-      "length": 24,
-      "value": "\"Fixed_ContractIsActive\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 23338,
-      "length": 28,
-      "value": "\"mobile_DataBundleIsInctive\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 24077,
-      "length": 27,
-      "value": "\"mobile_DataBundleIsActive\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 24813,
-      "length": 15,
-      "value": "\"SelectAccount\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 25242,
-      "length": 3,
-      "value": "\"*\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 25253,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 26050,
-      "length": 14,
-      "value": "\"CreditisHigh\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 26926,
-      "length": 12,
-      "value": "\"BillIsHigh\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 27780,
-      "length": 12,
-      "value": "\"OfferList2\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 28262,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 28551,
-      "length": 20,
-      "value": "\"BillingIssueAction\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 29417,
-      "length": 12,
-      "value": "\"TTFollowUp\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 29854,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 30143,
-      "length": 23,
-      "value": "\"TTFollowUpSLABreached\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 30176,
-      "length": 22,
-      "value": "\"TTFollowUpWithinSLAA\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 30542,
-      "length": 40,
-      "value": "\"Unable to parse trouble ticket details\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 30931,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 31220,
-      "length": 17,
-      "value": "\"AddNoteToTicket\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 31814,
-      "length": 17,
-      "value": "\"ChangeOwnership\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 32543,
-      "length": 18,
-      "value": "\"DisplayBuyBundle\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 33406,
-      "length": 26,
-      "value": "\"RedirectTroubleshootTool\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 34284,
-      "length": 22,
-      "value": "\"UpgradeDowngradePlan\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 35171,
-      "length": 9,
-      "value": "\"BillDue\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 35727,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 36016,
-      "length": 11,
-      "value": "\"OfferList\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 36089,
-      "length": 7,
-      "value": "\"value\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 36156,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 36447,
-      "length": 23,
-      "value": "\"Unable to find status\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 37074,
-      "length": 3,
-      "value": "\"*\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 37085,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 37307,
-      "length": 52,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 37339,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 37353,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 37357,
-      "length": 1,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 37683,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 37927,
-      "length": 8,
-      "value": "\"active\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 38046,
-      "length": 19,
-      "value": "\"ContractOfferList\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 38502,
-      "length": 3,
-      "value": "\"*\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 38513,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 39003,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 39292,
-      "length": 17,
-      "value": "\"MoreOneContract\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 39604,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 39906,
-      "length": 3,
-      "value": "\"*\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 39917,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 40303,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 40923,
-      "length": 16,
-      "value": "\"RequireRenewal\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 41540,
-      "length": 3,
-      "value": "\"*\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 41551,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 42335,
-      "length": 26,
-      "value": "\"ContractUpforRenewalText\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 42827,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 43116,
-      "length": 48,
-      "value": "\"ContractIsInactivePendingPayment_ContractIssue\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 43888,
-      "length": 42,
-      "value": "\"ContractIsInactiveIDExpiry_ContractIssue\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 44783,
-      "length": 59,
-      "value": "\"ContractIsInactivePendingPaymentAndIdExpiry_ContractIssue\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 45574,
-      "length": 15,
-      "value": "\"PayFriendLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 46434,
-      "length": 20,
-      "value": "\"RechargeFriendLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 47304,
-      "length": 20,
-      "value": "\"PurchaseAddOnsLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 48174,
-      "length": 17,
-      "value": "\"PurchaseICPLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 49038,
-      "length": 21,
-      "value": "\"MarketingOffersLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 49910,
-      "length": 30,
-      "value": "\"ScheduleStoreAppointmentLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 50813,
-      "length": 23,
-      "value": "\"HomeRelocationBooking\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 51689,
-      "length": 29,
-      "value": "\"HomeServiceCancellationLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 52573,
-      "length": 27,
-      "value": "\"PurchaseRoamingBundleLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 53453,
-      "length": 20,
-      "value": "\"ContactDetailsInfo\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 54020,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 54322,
-      "length": 16,
-      "value": "\"ContactDetails\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 55188,
-      "length": 22,
-      "value": "\"CheckAppointmentTime\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 56063,
-      "length": 30,
-      "value": "\"HomePlansTroubleshootingLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 56950,
-      "length": 30,
-      "value": "\"BroadbandTroubleshootingLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 57837,
-      "length": 31,
-      "value": "\"TVPackagesTroubleshootingLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 58726,
-      "length": 37,
-      "value": "\"PurchaseAddOnsManageCallerTunesLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 59627,
-      "length": 30,
-      "value": "\"PurchaseAddOnsManageDataLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 60514,
-      "length": 29,
-      "value": "\"PurchaseAddOnsManageVASLink\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 61399,
-      "length": 16,
-      "value": "\"SendTranscript\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 62314,
-      "length": 14,
-      "value": "\"DecodersList\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 62755,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 63044,
-      "length": 14,
-      "value": "\"PackagesList\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "Array",
-      "offset": 63485,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 63800,
-      "length": 19,
-      "value": "\"TVChannelInfoLink\""
-    },
-    {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotButton.swift",
       "kind": "StringLiteral",
       "offset": 223,
@@ -13734,699 +12587,6 @@
       "offset": 259,
       "length": 13,
       "value": "\"destructive\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuChatBotConfigurator.swift",
-      "kind": "StringLiteral",
-      "offset": 450,
-      "length": 57,
-      "value": "\"Kx-uinKF1Zc.uoxROvxdmDzK28PZuDbigbzEUF_fSbb9XdY7H1tpxdE\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuChatBotConfigurator.swift",
-      "kind": "StringLiteral",
-      "offset": 576,
-      "length": 57,
-      "value": "\"UicQnIoU8vI.De1swzYD5pBPxOs7htE9SeceEzu2aAAij5cE0YvV16s\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuChatBotConfigurator.swift",
-      "kind": "StringLiteral",
-      "offset": 706,
-      "length": 57,
-      "value": "\"lYvIkdOCkPM.qv5QV8fIUAYIkEFgiaXmmi5T6LKKsQjP2r1VlodWzi4\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuChatBotConfigurator.swift",
-      "kind": "StringLiteral",
-      "offset": 836,
-      "length": 57,
-      "value": "\"2XzCywcJWiQ.95jMbOxXCHxXhAn1JFxvZ9LC0Y9Xky6hmN75MVPH0j8\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuChatBotConfigurator.swift",
-      "kind": "StringLiteral",
-      "offset": 964,
-      "length": 57,
-      "value": "\"_Pa2Kjrfqv0.vSxUirkLeADbEZKl99BBOJlr7PCb4NEX6MeQ7iAWiSg\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 349,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 379,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 411,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "StringLiteral",
-      "offset": 473,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 489,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "StringLiteral",
-      "offset": 538,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 554,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "StringLiteral",
-      "offset": 607,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 623,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 681,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 713,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 759,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 787,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 837,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 869,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "StringLiteral",
-      "offset": 958,
-      "length": 11,
-      "value": "\"\\d+-\\d+\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "StringLiteral",
-      "offset": 1098,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1144,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1263,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1284,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotOrder.swift",
-      "kind": "StringLiteral",
-      "offset": 1306,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 397,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 429,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 459,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 489,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "StringLiteral",
-      "offset": 551,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 567,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "StringLiteral",
-      "offset": 620,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 636,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "StringLiteral",
-      "offset": 685,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 701,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "StringLiteral",
-      "offset": 750,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 766,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 824,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 856,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 906,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 938,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 984,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1012,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1058,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotRechargeHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1086,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotPaymentHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 363,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotPaymentHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 395,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotPaymentHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 427,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotPaymentHistory.swift",
-      "kind": "StringLiteral",
-      "offset": 489,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotPaymentHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 505,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotPaymentHistory.swift",
-      "kind": "StringLiteral",
-      "offset": 558,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotPaymentHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 574,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotPaymentHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 624,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotPaymentHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 656,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotPaymentHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 706,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotPaymentHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 738,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 462,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 475,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 523,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 536,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 577,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 590,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 632,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 645,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 694,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 707,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 770,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 841,
-      "length": 3,
-      "value": "\"*\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 898,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 914,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 971,
-      "length": 3,
-      "value": "\"*\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1044,
-      "length": 3,
-      "value": "\"*\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1104,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1136,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1202,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1250,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1302,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1336,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1390,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1426,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1494,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1544,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1633,
-      "length": 11,
-      "value": "\"\\d+-\\d+\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1773,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1819,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1938,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1959,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotTroubleTicketDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1981,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotKeyValuePair.swift",
-      "kind": "StringLiteral",
-      "offset": 352,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotKeyValuePair.swift",
-      "kind": "IntegerLiteral",
-      "offset": 368,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotKeyValuePair.swift",
-      "kind": "IntegerLiteral",
-      "offset": 905,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotKeyValuePair.swift",
-      "kind": "StringLiteral",
-      "offset": 933,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotKeyValuePair.swift",
-      "kind": "StringLiteral",
-      "offset": 944,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotKeyValuePair.swift",
-      "kind": "StringLiteral",
-      "offset": 973,
-      "length": 4,
-      "value": "\"**\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotKeyValuePair.swift",
-      "kind": "StringLiteral",
-      "offset": 985,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotKeyValuePair.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1061,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotKeyValuePair.swift",
-      "kind": "StringLiteral",
-      "offset": 1089,
-      "length": 4,
-      "value": "\"**\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotKeyValuePair.swift",
-      "kind": "StringLiteral",
-      "offset": 1101,
-      "length": 2,
-      "value": "\"\""
     }
   ]
 }
