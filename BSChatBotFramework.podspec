@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BSChatBotFramework'
-  s.version          = '2.2.5'
+  s.version          = '2.2.6'
   s.summary          = 'A short description of DuChatBotFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   #s.source_files = 'DuChatBotFramework/Classes/**/*'
   
   s.ios.vendored_frameworks = 'DuChatBot.xcframework'
-  s.dependency 'DuChatBotClientFramework', '2.0.8'
+  s.dependency 'DuChatBotClientFramework', '2.0.9'
 
   # s.resource_bundles = {
   #   'DuChatBotFramework' => ['DuChatBotFramework/Assets/*.png']
