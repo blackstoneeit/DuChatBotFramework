@@ -120,11 +120,6 @@ public enum DuChatBotParseResult {
   case packages(result: DuChatBot.DuObjectParseResult<[DuChatBot.DuChatBotPackage]>)
   case tvChannelInfoLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
   case purchaseAddOnsLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
-  case renewContractLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
-  case paymentHistoryLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
-  case vasUnsubscriptionLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
-  case upgradePlanLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
-  case purchaseAddOnsManageDataLink(result: DuChatBot.DuObjectParseResult<DuChatBot.DuChatBotAccountDetails>)
 }
 public struct DuChatBotConfirmVASUnsubscription {
   public let name: Swift.String
@@ -150,19 +145,8 @@ public struct DuChatBotAccountDetails : Swift.Codable {
   public let msisdn: Swift.String
   public let contractCode: Swift.String?
   public let customerId: Swift.String?
-  public var type: DuChatBot.AccountCustomerType?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
-}
-public enum AccountCustomerType : Swift.String, Swift.Codable {
-  case None
-  case Ignite
-  case BAU
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
 }
 public struct DuChatBotDecoder {
   public let id: Swift.String
@@ -221,7 +205,6 @@ public enum DuChatBotConfigurator {
     case previewMinor
     case previewMajor
     case production
-    case tqcIgnite
     public static func == (a: DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment, b: DuChatBot.DuChatBotConfigurator.DuChatBotEnvironment) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
@@ -307,9 +290,6 @@ extension DuChatBot.DuChatBotLocale : Swift.Equatable {}
 extension DuChatBot.DuChatBotLocale : Swift.Hashable {}
 extension DuChatBot.DuChatBotLocale : Swift.RawRepresentable {}
 extension DuChatBot.DuChatBotLocale : Swift.Sendable {}
-extension DuChatBot.AccountCustomerType : Swift.Equatable {}
-extension DuChatBot.AccountCustomerType : Swift.Hashable {}
-extension DuChatBot.AccountCustomerType : Swift.RawRepresentable {}
 extension DuChatBot.DuChatBotContractStatus : Swift.Equatable {}
 extension DuChatBot.DuChatBotContractStatus : Swift.Hashable {}
 extension DuChatBot.DuChatBotContractStatus : Swift.Sendable {}
