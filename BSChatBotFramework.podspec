@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DuChatBotFramework'
+  s.name             = 'BSChatBotFramework'
   s.version          = '2.2.3'
   s.summary          = 'A short description of DuChatBotFramework.'
 
