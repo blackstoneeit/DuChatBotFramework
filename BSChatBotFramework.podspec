@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/blackstoneeit/DuChatBotFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author           = { 'Blackstone eIT' => 'sales@blackstoneeit.com' }
   s.source           = { :git => 'https://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@github.com/blackstoneeit/DuChatBotFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
