@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   #s.source_files = 'DuChatBotFramework/Classes/**/*'
   
   s.ios.vendored_frameworks = 'DuChatBot.xcframework'
-  s.dependency 'DuChatBotClientFramework', '2.0.6'
+  s.dependency 'BSChatBotClientFramework', '2.0.6'
 
   # s.resource_bundles = {
   #   'DuChatBotFramework' => ['DuChatBotFramework/Assets/*.png']
