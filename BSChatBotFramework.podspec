@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BSChatBotFramework'
-  s.version          = '2.2.11.5'
+  s.version          = '2.2.12'
   s.summary          = 'A short description of DuChatBotFramework.'
 
 # This description is used to generate tags and improve search results.
