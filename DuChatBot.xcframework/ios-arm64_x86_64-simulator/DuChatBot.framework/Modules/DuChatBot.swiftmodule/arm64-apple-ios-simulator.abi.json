@@ -7174,114 +7174,26 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "type",
-            "printedName": "type",
+            "kind": "Function",
+            "name": "getUserType",
+            "printedName": "getUserType()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "DuChatBot.AccountCustomerType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AccountCustomerType",
-                    "printedName": "DuChatBot.AccountCustomerType",
-                    "usr": "s:9DuChatBot19AccountCustomerTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "AccountCustomerType",
+                "printedName": "DuChatBot.AccountCustomerType",
+                "usr": "s:9DuChatBot19AccountCustomerTypeO"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvp",
-            "mangledName": "$s9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvp",
+            "declKind": "Func",
+            "usr": "s:9DuChatBot0abC14AccountDetailsV11getUserTypeAA0d8CustomerH0OyF",
+            "mangledName": "$s9DuChatBot0abC14AccountDetailsV11getUserTypeAA0d8CustomerH0OyF",
             "moduleName": "DuChatBot",
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DuChatBot.AccountCustomerType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AccountCustomerType",
-                        "printedName": "DuChatBot.AccountCustomerType",
-                        "usr": "s:9DuChatBot19AccountCustomerTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvg",
-                "mangledName": "$s9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvg",
-                "moduleName": "DuChatBot",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DuChatBot.AccountCustomerType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AccountCustomerType",
-                        "printedName": "DuChatBot.AccountCustomerType",
-                        "usr": "s:9DuChatBot19AccountCustomerTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvs",
-                "mangledName": "$s9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvs",
-                "moduleName": "DuChatBot",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvM",
-                "mangledName": "$s9DuChatBot0abC14AccountDetailsV4typeAA0D12CustomerTypeOSgvM",
-                "moduleName": "DuChatBot",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -12630,49 +12542,42 @@
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 476,
+      "offset": 600,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 574,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 595,
+      "offset": 621,
       "length": 8,
       "value": "\"Ignite\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 619,
+      "offset": 645,
       "length": 5,
       "value": "\"BAU\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 574,
+      "offset": 600,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 595,
+      "offset": 621,
       "length": 8,
       "value": "\"Ignite\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 619,
+      "offset": 645,
       "length": 5,
       "value": "\"BAU\""
     },
@@ -12680,13 +12585,13 @@
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
       "kind": "Array",
       "offset": 482,
-      "length": 419,
-      "value": "[\"\", \"OpinionIsImportant\", \"SuggestedActions\", \"AnythingElse\", \"AskAboutIdStatus\", \"PromptOrderStatusNumber\", \"HandoffFailed\", \"NoOrderStatus\", \"mobile_ContractIsInactive\", \"Fixed_ContractIsInactive\", \"ReenterCode\", \"Fixed_ContractIsActivetroubleshootingStep\", \"AnythingElseBillingIssue\", \"FromAgent\"]"
+      "length": 447,
+      "value": "[\"\", \"OpinionIsImportant\", \"SuggestedActions\", \"AnythingElse\", \"AskAboutIdStatus\", \"PromptOrderStatusNumber\", \"HandoffFailed\", \"NoOrderStatus\", \"mobile_ContractIsInactive\", \"Fixed_ContractIsInactive\", \"ReenterCode\", \"Fixed_ContractIsActivetroubleshootingStep\", \"AnythingElseBillingIssue\", \"FromAgent\", \"inactive_session\"]"
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/DuParsingEngine.swift",
       "kind": "Array",
-      "offset": 933,
+      "offset": 961,
       "length": 535,
       "value": "[\"Menu\", \"MyAccountMenu\", \"BalanceMenu\", \"InternetIssue_BroadbandTroubleshooting\", \"ResolvedIssue\", \"ActiveFixedResolvedIssue\", \"BillHigh\", \"BillIsHighOptions\", \"ContractIssue_Troubleshooting\", \"AddNoteConfirmation\", \"ConnectToAgentConfirmation\", \"DeactivateNumberConfirmation\", \"ResolvedIssueNo\", \"ActiveContractStatus\", \"NotProceedRewewal\", \"OtherReasonIssue\", \"InActiveContractStatusOther\"]"
     },

@@ -156,7 +156,7 @@ public struct DuChatBotAccountDetails : Swift.Codable {
   public let msisdn: Swift.String
   public let contractCode: Swift.String?
   public let customerId: Swift.String?
-  public var type: DuChatBot.AccountCustomerType?
+  public func getUserType() -> DuChatBot.AccountCustomerType
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
