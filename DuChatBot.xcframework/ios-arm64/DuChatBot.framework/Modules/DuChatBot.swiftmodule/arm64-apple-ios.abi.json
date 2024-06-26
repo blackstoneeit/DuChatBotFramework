@@ -7190,8 +7190,7 @@
             "mangledName": "$s9DuChatBot0abC14AccountDetailsV11getUserTypeAA0d8CustomerH0OyF",
             "moduleName": "DuChatBot",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -12542,42 +12541,42 @@
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 600,
+      "offset": 548,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 621,
+      "offset": 569,
       "length": 8,
       "value": "\"Ignite\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 645,
+      "offset": 593,
       "length": 5,
       "value": "\"BAU\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 600,
+      "offset": 548,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 621,
+      "offset": 569,
       "length": 8,
       "value": "\"Ignite\""
     },
     {
       "filePath": "\/Users\/norasayed\/Desktop\/Projects\/Blackstone\/DuChatbot-Mobile\/DuChatBot\/Model\/DuChatBotAccountDetails.swift",
       "kind": "StringLiteral",
-      "offset": 645,
+      "offset": 593,
       "length": 5,
       "value": "\"BAU\""
     },
