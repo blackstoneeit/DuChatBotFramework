@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   
   s.ios.vendored_frameworks = 'DuChatBot.xcframework'
   s.dependency 'BSChatBotClientFramework', '2.0.6'
-
+  s.pod_target_xcconfig = { 'SWIFT_OPTIMIZATION_LEVEL' => '-Onone' }
   # s.resource_bundles = {
   #   'DuChatBotFramework' => ['DuChatBotFramework/Assets/*.png']
   # }
